@@ -2,15 +2,19 @@ import React, { Component } from "react";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import GithubRepoCard from "../../components/githubRepoCard/GithubRepoCard";
-import PublicationCard from "../../components/publicationsCard/PublicationCard";
+// import PublicationCard from "../../components/publicationsCard/PublicationCard";
 import Button from "../../components/button/Button";
 import TopButton from "../../components/topButton/TopButton";
 import { Fade } from "react-reveal";
-import { greeting, projectsHeader, publicationsHeader } from "../../portfolio.js";
+import {
+  greeting,
+  projectsHeader,
+  // publicationsHeader,
+} from "../../portfolio.js";
 import ProjectsData from "../../shared/opensource/projects.json";
-import PublicationData from "../../shared/opensource/publications.json";
+// import PublicationData from "../../shared/opensource/publications.json";
 import "./Projects.css";
-import ProjectsImg from "./ProjectsImg";
+// import ProjectsImg from "./ProjectsImg";
 
 class Projects extends Component {
   render() {
@@ -22,11 +26,11 @@ class Projects extends Component {
           <Fade bottom duration={2000} distance="40px">
             <div className="projects-heading-div">
               <div className="projects-heading-img-div">
-                {/* <img
-											src={require(`../../assests/images/${projectsHeader["avatar_image_path"]}`)}
-											alt=""
-										/> */}
-                <ProjectsImg theme={theme} />
+                <img
+                  src={require(`../../assests/images/${projectsHeader["avatar_image_path"]}`)}
+                  alt=""
+                />
+                {/* <ProjectsImg theme={theme} /> */}
               </div>
               <div className="projects-heading-text-div">
                 <h1
@@ -58,7 +62,7 @@ class Projects extends Component {
           theme={theme}
         />
 
-        {/* Publications  */}
+        {/* Publications 
 
         <div className="basic-projects">
           <Fade bottom duration={2000} distance="40px">
@@ -85,7 +89,7 @@ class Projects extends Component {
           {PublicationData.data.map((repo) => {
             return <PublicationCard repo={repo} theme={theme} />;
           })}
-        </div>
+        </div> */}
 
         <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
         <TopButton theme={this.props.theme} />
