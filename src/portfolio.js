@@ -26,7 +26,7 @@ const greeting = {
     "A passionate tech enthusiast trying to solve real world problems through technology.",
   resumeLink:
     "https://drive.google.com/open?id=1XYpYhLeqCdyx_q6l0bQoC7RgwQjAjXPf",
-  portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
+  portfolio_repository: "https://github.com/theriyasharma24/Portfolio",
   githubProfile: "https://github.com/theriyasharma24",
 };
 
@@ -65,8 +65,14 @@ const socialMediaLinks = [
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
   {
+    name: "Instagram",
+    link: "https://www.instagram.com/theriyasharma_/",
+    fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
+    backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
+  },
+  {
     name: "Twitter",
-    link: "https://twitter.com/ashutosh_1919",
+    link: "https://twitter.com/theriyasharma_",
     fontAwesomeIcon: "fa-twitter", // Reference https://fontawesome.com/icons/twitter?style=brands
     backgroundColor: "#1DA1F2", // Reference https://simpleicons.org/?q=twitter
   },
@@ -75,12 +81,6 @@ const socialMediaLinks = [
   //   link: "https://www.facebook.com/laymanbrother.19/",
   //   fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
   //   backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
-  // },
-  // {
-  //   name: "Instagram",
-  //   link: "https://www.instagram.com/layman_brother/",
-  //   fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
-  //   backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
   // },
 ];
 
@@ -339,12 +339,12 @@ const competitiveSites = {
       profileLink: "https://www.codechef.com/users/riyasharma24",
     },
     {
-      siteName: "Codeforces",
-      iconifyClassname: "simple-icons:codeforces",
+      siteName: "Leetcode",
+      iconifyClassname: "simple-icons:leetcode",
       style: {
         color: "#1F8ACB",
       },
-      profileLink: "http://codeforces.com/profile/layman_brother",
+      profileLink: "https://leetcode.com/riyasharma24/",
     },
     {
       siteName: "Hackerearth",
@@ -352,15 +352,15 @@ const competitiveSites = {
       style: {
         color: "#323754",
       },
-      profileLink: "https://www.hackerearth.com/@ashutosh391",
+      profileLink: "https://www.hackerearth.com/@riya1212",
     },
     {
-      siteName: "Kaggle",
-      iconifyClassname: "simple-icons:kaggle",
+      siteName: "StackOverflow",
+      iconifyClassname: "simple-icons:stackoverflow",
       style: {
-        color: "#20BEFF",
+        color: "#345234",
       },
-      profileLink: "https://www.kaggle.com/laymanbrother",
+      profileLink: "https://stackoverflow.com/users/15662612/riya-sharma",
     },
   ],
 };
@@ -370,13 +370,13 @@ const degrees = {
     {
       title: "University of Delhi",
       subtitle: "BSc (H) Computer Science",
-      logo_path: "iiitk_logo.png",
+      logo_path: "du.jpg",
       alt_name: "du",
       duration: "2020 - Present",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-        "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
+        "⚡ I have studied basic software engineering subjects like DSA, DAA, DBMS, OS, SE, CN etc.",
+        "⚡ Apart from this, I have done courses in Full Stack Development and Machine Learning.",
+        "⚡ I secured Second Position in the University for Part 1 examination and received scholarship for the same from Indraprastha College for Women, University of Delhi.",
       ],
       website_link: "https://www.du.ac.in",
     },
@@ -499,136 +499,138 @@ const certifications = {
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Work, Internship and Volunteership",
+  subtitle: "Internship and Volunteership",
   description:
-    "I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
-  header_image_path: "experience.svg",
+    "Currently, I am working to enhance my web and android development skills. I am also closely involved with the Core Team of Science Society of IPCW as the Department Representative.",
+  header_image_path: "working.png",
   sections: [
-    {
-      title: "Work",
-      experiences: [
-        {
-          title: "Associate AI Engineer",
-          company: "Legato Health Technology",
-          company_url: "https://legatohealthtech.com/",
-          logo_path: "legato_logo.png",
-          duration: "June 2020 - PRESENT",
-          location: "Hyderabad, Telangana",
-          description:
-            "I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
-          color: "#0879bf",
-        },
-        {
-          title: "Android and ML Developer",
-          company: "Muffito Incorporation",
-          company_url: "https://www.linkedin.com/company/muffito-inc/about/",
-          logo_path: "muffito_logo.png",
-          duration: "May 2018 - Oct 2018",
-          location: "Pune, Maharashtra",
-          description:
-            "I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
-          color: "#9b1578",
-        },
-        {
-          title: "Android Developer",
-          company: "FreeCopy Pvt. Ltd.",
-          company_url: "https://www.linkedin.com/company/freecopy/about/",
-          logo_path: "freecopy_logo.png",
-          duration: "Nov 2017 - Dec 2017",
-          location: "Ahmedabad, Gujarat",
-          description:
-            "FreeCopy is the Start up from Indian Institute of Management, Ahmedabad. I have changed the integration of the whole app from Google to Firebase. I learnt the efﬁcient ways of Data communications like Retroﬁt, Eventbus etc. I experienced the real time start up. I learnt the Design thinking of UI on perspective of People.",
-          color: "#fc1f20",
-        },
-      ],
-    },
+    // {
+    //   title: "Work",
+    //   experiences: [
+    //     {
+    //       title: "Associate AI Engineer",
+    //       company: "Legato Health Technology",
+    //       company_url: "https://legatohealthtech.com/",
+    //       logo_path: "legato_logo.png",
+    //       duration: "June 2020 - PRESENT",
+    //       location: "Hyderabad, Telangana",
+    //       description:
+    //         "I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
+    //       color: "#0879bf",
+    //     },
+    //     {
+    //       title: "Android and ML Developer",
+    //       company: "Muffito Incorporation",
+    //       company_url: "https://www.linkedin.com/company/muffito-inc/about/",
+    //       logo_path: "muffito_logo.png",
+    //       duration: "May 2018 - Oct 2018",
+    //       location: "Pune, Maharashtra",
+    //       description:
+    //         "I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
+    //       color: "#9b1578",
+    //     },
+    //     {
+    //       title: "Android Developer",
+    //       company: "FreeCopy Pvt. Ltd.",
+    //       company_url: "https://www.linkedin.com/company/freecopy/about/",
+    //       logo_path: "freecopy_logo.png",
+    //       duration: "Nov 2017 - Dec 2017",
+    //       location: "Ahmedabad, Gujarat",
+    //       description:
+    //         "FreeCopy is the Start up from Indian Institute of Management, Ahmedabad. I have changed the integration of the whole app from Google to Firebase. I learnt the efﬁcient ways of Data communications like Retroﬁt, Eventbus etc. I experienced the real time start up. I learnt the Design thinking of UI on perspective of People.",
+    //       color: "#fc1f20",
+    //     },
+    //   ],
+    // },
     {
       title: "Internships",
       experiences: [
         {
-          title: "Data Science Research Intern",
-          company: "Delhivery Pvt. Ltd.",
-          company_url: "https://www.delhivery.com/",
-          logo_path: "delhivery_logo.png",
-          duration: "May 2019 - Sept 2019",
-          location: "Gurgaon, Haryana",
-          description:
-            "I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily freight rates. (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this. At the end of internship, I had created model deployed on AWS EC2 with the use of Kafka stream jobs, ElasticSearch and PostgreSQL.",
-          color: "#ee3c26",
-        },
-        {
-          title: "Data Science Intern",
-          company: "Intel Indexer LLC",
-          company_url:
-            "https://opencorporates.com/companies/us_dc/EXTUID_4170286",
-          logo_path: "intel_logo.jpg",
-          duration: "Nov 2018 - Dec 2018",
+          title: "Full Stack App Developer Intern",
+          company: "Amygo Retail Pvt. Ltd.",
+          company_url: "https://www.amygo.app/",
+          logo_path: "amygologo.jpg",
+          duration: "June 2022 - present",
           location: "Work From Home",
           description:
-            "This is financial Solution Company. I have made Supervised Learning model for the company which can perform time series analysis on Stock price data for 32 companies. I have built LSTM Neural Networks Model and trained the data of 32 companies for last 2 years. This model is also used for forecasting.",
-          color: "#0071C5",
+            "Amygo is a video-led commerce platform that is committed to transforming e-commerce in India through immersive videos, customer-centricity, a diverse category landscape and a world-class supply chain. I am independently creating new features for the react-native application of Amygo. I have also created APIs in Django/Python and NodeJS language for the Backend.",
+          color: "#ee3c26",
         },
+        // {
+        //   title: "Data Science Intern",
+        //   company: "Intel Indexer LLC",
+        //   company_url:
+        //     "https://opencorporates.com/companies/us_dc/EXTUID_4170286",
+        //   logo_path: "intel_logo.jpg",
+        //   duration: "Nov 2018 - Dec 2018",
+        //   location: "Work From Home",
+        //   description:
+        //     "This is financial Solution Company. I have made Supervised Learning model for the company which can perform time series analysis on Stock price data for 32 companies. I have built LSTM Neural Networks Model and trained the data of 32 companies for last 2 years. This model is also used for forecasting.",
+        //   color: "#0071C5",
+        // },
       ],
     },
     {
       title: "Volunteerships",
       experiences: [
         {
-          title: "Google Explore ML Facilitator",
-          company: "Google",
-          company_url: "https://about.google/",
-          logo_path: "google_logo.png",
-          duration: "June 2019 - April 2020",
-          location: "Hyderabad, Telangana",
+          title: "Core Team Member",
+          company: "Ananta- the science society of IPCW",
+          company_url:
+            "https://sites.google.com/view/ananta-thesciencesociety/home?authuser=0",
+          logo_path: "ananta.png",
+          duration: "Aug 2021 - present",
+          location: "New Delhi",
           description:
-            "Explore Machine Learning (ML) is a Google-sponsored program for university students to get started with Machine Learning. The curriculum offers 3 tracks of ML Content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus and to build opensource projects under this program.",
-          color: "#4285F4",
-        },
-        {
-          title: "Microsoft Student Partner",
-          company: "Microsoft",
-          company_url: "https://www.microsoft.com/",
-          logo_path: "microsoft_logo.png",
-          duration: "Aug 2019 - May 2020",
-          location: "Hyderabad, Telangana",
-          description:
-            "Microsoft Student Partner is a program for university students to lead the awareness and use of Cloud especially Azure tools in the development of their projects and startups. Under this program, I have organised hands on workshops and seminars to teach Cloud Computing concepts to students.",
-          color: "#D83B01",
-        },
-        {
-          title: "Mozilla Campus Captain",
-          company: "Mozilla",
-          company_url: "https://www.mozilla.org/",
-          logo_path: "mozilla_logo.png",
-          duration: "Oct 2019 - May 2020",
-          location: "Kurnool, Andhra Pradesh",
-          description:
-            "My responsibility for this program was to create opensource environment in college and in the city. We have organised multiple hackathons on the problems collected by ordinary people from Kurnool city. We have build opensource community of our own college. The community is available at dsc_iiitdmk on github.",
+            "My responsibility was to work as a representative of the Computer Science Department of IPCW. I ensured maximum participation and awareness among students regarding contests, webinars, and quizzes organised by the society. I also volunteered to create graphic posters and videos for the society. ",
           color: "#000000",
         },
         {
-          title: "Developer Students Club Member",
-          company: "DSC IIITDM Kurnool",
-          company_url:
-            "https://www.linkedin.com/company/developer-students-club-iiitdm-kurnool",
-          logo_path: "dsc_logo.png",
-          duration: "Jan 2018 - May 2020",
-          location: "Kurnool, Andhra Pradesh",
-          description:
-            "We have well established developer club in college which is directly associated with Google Developers. We have developed many interdisciplinary projects under the membership of this club. We have organised workshops and activities on Android Application Development, Flutter and React JS.",
-          color: "#0C9D58",
-        },
-        {
-          title: "Developer Program Member",
-          company: "Github",
-          company_url: "https://github.com/",
-          logo_path: "github_logo.png",
-          duration: "July 2019 - PRESENT",
+          title: "Student Volunteer",
+          company: "Girl Up Now",
+          company_url: "https://girlup.org/",
+          logo_path: "girluplogo.png",
+          duration: "Aug 2021 - present",
           location: "Work From Home",
           description:
-            "I am actively contributing to many opensource projects. I have contributed to projects of organisations like Tensorflow, Uber, Facebook, Google, Scikit-learn, Kiwix, Sympy, Python, NVLabs, Fossasia, Netrack, Keras etc. These contributions include bug fixes, feature requests and formulating proper documentation for project.",
-          color: "#181717",
+            "Girl Up Now is an affiliation to Girl Up Campaign recognised by the United Nations Foundation. It works towards women empowerment and upliftment. I participated and promoted the workshops and webinars organized by the campaign. I also volunteered to create graphic posters for the campaign.  ",
+          color: "#D83B01",
         },
+        {
+          title: "Student Volunteer",
+          company: "Visonaries",
+          company_url: "https://www.facebook.com/visionariesdu/",
+          logo_path: "visionarieslogo.jpg",
+          duration: "March 2021 - present",
+          location: "Work From Home",
+          description:
+            "Visionaries is a student initiative which aims to help students who are visually impaired by providing them scribes and audiobooks. I record audiobooks in Hindi and English language. To help the visually impaired students, I have also made a python program that converts any PDF text into an audiobook in seconds.",
+          color: "#4285F4",
+        },
+
+        // {
+        //   title: "Developer Students Club Member",
+        //   company: "DSC IIITDM Kurnool",
+        //   company_url:
+        //     "https://www.linkedin.com/company/developer-students-club-iiitdm-kurnool",
+        //   logo_path: "dsc_logo.png",
+        //   duration: "Jan 2018 - May 2020",
+        //   location: "Kurnool, Andhra Pradesh",
+        //   description:
+        //     "We have well established developer club in college which is directly associated with Google Developers. We have developed many interdisciplinary projects under the membership of this club. We have organised workshops and activities on Android Application Development, Flutter and React JS.",
+        //   color: "#0C9D58",
+        // },
+        // {
+        //   title: "Developer Program Member",
+        //   company: "Github",
+        //   company_url: "https://github.com/",
+        //   logo_path: "github_logo.png",
+        //   duration: "July 2019 - PRESENT",
+        //   location: "Work From Home",
+        //   description:
+        //     "I am actively contributing to many opensource projects. I have contributed to projects of organisations like Tensorflow, Uber, Facebook, Google, Scikit-learn, Kiwix, Sympy, Python, NVLabs, Fossasia, Netrack, Keras etc. These contributions include bug fixes, feature requests and formulating proper documentation for project.",
+        //   color: "#181717",
+        // },
       ],
     },
   ],
@@ -638,8 +640,8 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
-  avatar_image_path: "projects_image.svg",
+    "My projects makes use of vast variety of latest technology tools. I try to explore new tools and tech by experimenting with them. My best experience is to create Data Science and Web Development projects.",
+  avatar_image_path: "Projects_top.png",
 };
 
 const publicationsHeader = {
@@ -653,16 +655,16 @@ const publicationsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "animated_ashutosh.png",
+    profile_image_path: "Contactgirl.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      // "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "I am almost on all social media sites and mostly active on Linkedin. You can contact me anytime and I can help you with AI, React, and Android.",
   },
   blogSection: {
     title: "Blogs",
-    subtitle:
-      "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
-    link: "https://ashutoshhathidara.wordpress.com",
-    avatar_image_path: "blogs_image.svg",
+    subtitle: "I like to share whatever I have learned through my blogs.",
+    link: "https://medium.com/@theriyasharma24",
+    avatar_image_path: "blogs_image.png",
   },
   addressSection: {
     title: "Address",
