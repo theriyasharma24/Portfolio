@@ -1,8 +1,5 @@
-<p align="center"> 
-    <img src="images/masterportfolio-banner-light.png" align="center" height="150"></img>
-</p>
-
 <h1 align="center"> Software Developer Master Portfolio 🔥 </h1> 
+<p align="center">Hi! This repository was forked from <a href="https://github.com/ashutosh1919/masterPortfolio"> Ashutosh Hathiadara's master portfolio repository</a>. I have customized it according to my requirements. You are more than welcome to use this repository!</p>
 <h3 align="center"> A clean, beautiful, responsive, and 100% customizable portfolio <br /> template for Software Developers! </h3>
 
 <p align="center">
@@ -21,11 +18,11 @@
   <a href="https://ashutoshhathidara.com/"><img alt="License" src="http://img.shields.io/:license-mit-blue.svg?style=flat-square?style=flat-square" /></a>
   <a href="https://img.shields.io/badge/price-free-ff69b4"><img alt="Price" src="https://img.shields.io/badge/price-free-ff69b4?style=flat-square" /></a>
 </p>
-<p align="center">If you want to discuss about something, you can ask on my <a href="https://discord.com/invite/GkcbM5bwZr">Discord Server</a>.</p>
+
 
 <p align="center"> 
-    <a href="https://ashutosh1919.github.io" target="_blank">
-    <img src="images/masterPortfolioThemes.png"></img>
+    <a href="https://riyasharma24.herokuapp.com/#/home" target="_blank">
+    <img src="https://user-images.githubusercontent.com/83356926/183068630-dfa19c89-9682-4f53-91f6-f4eb21e9fe56.png"></img>
   </a>
 </p>
 
@@ -42,7 +39,7 @@
 ✔️ Education\
 ✔️ Contact me
 
-To view a live example, **[click here](https://ashutosh1919.github.io/)**
+To view a live example, **[click here](https://riyasharma24.herokuapp.com/#/home)**
 
 # Clone and Use 📋
 
@@ -51,7 +48,7 @@ To view a live example, **[click here](https://ashutosh1919.github.io/)**
 - In case you want to help developing it or simply saving it, you can fork the repository just by clicking the button on the top-right corner of this page
 - After the successful installation of `nodejs` and `npm`, clone the repository into your local system using below command:
     ```bash
-     git clone https://github.com/ashutosh1919/masterPortfolio.git
+     git clone https://github.com/theriyasharma24/Portfolio.git
     ```
     This will clone the whole repository in your system.
 - To download required dependencies to your system, navigate to the directory where the cloned repository resides and execute following command:
@@ -63,7 +60,7 @@ To view a live example, **[click here](https://ashutosh1919.github.io/)**
 
 # Customize it to make your own portfolio ✏️
 
-In this project, there are basically 4 things that you need to change to customize this to anyone else's portfolio: **package.json**, **Personal Information**, **Github Information** and **Splash Logo**.
+In this project, there are basically 4 things that you need to change to customize this to anyone else's portfolio: **package.json**, **Personal Information**, and **Github Information**.
 
 ### package.json
 
@@ -122,9 +119,6 @@ This will fetch all the data from your github and it will automatically replace 
 Whenever you want to update the github related information on the website you need to run this command.
 
 ### Splash Logo
-
-Note here that if you click [my portfolio](https://ashutosh1919.github.io), you can see animating the logo at the beginning. I have designed that logo in [`Figma`](https://www.figma.com/) and then animated it using css.
-Therefore, this part of portfolio is not customizable. But don't worry we have a solution to this problem. You have below two alternatives:
 
 - If you want to design your own logo, then you can design it using `Figma` or `Adobe XD` or `Adobe Illustrator` or `Inkscape`. If you want to animate it, you can refer to `./src/components/Loader` directory which contains `js` and `css` files which animates the logo
 - If you don't want Splash screen or you don't know how to design logo, then this option is for you
