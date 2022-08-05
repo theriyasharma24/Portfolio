@@ -1,5 +1,5 @@
 <h1 align="center"> Software Developer Master Portfolio 🔥 </h1> 
-<p align="center">Hi! This repository was forked from <a href="https://github.com/ashutosh1919/masterPortfolio"> Ashutosh Hathiadara's master portfolio repository</a>. I have customized it according to my requirements. You are more than welcome to use this repository!</p>
+<p align="center">Hi! This repository was forked from <a href="https://github.com/ashutosh1919/masterPortfolio"> Ashutosh Hathidara's master portfolio repository</a>. I have customized it according to my requirements. You are more than welcome to use this repository!</p>
 <h3 align="center"> A clean, beautiful, responsive, and 100% customizable portfolio <br /> template for Software Developers! </h3>
 
 <p align="center">
