@@ -25,21 +25,12 @@ const greeting = {
   subTitle:
     "A passionate tech enthusiast trying to solve real world problems through technology.",
   resumeLink:
-    "https://drive.google.com/open?id=1XYpYhLeqCdyx_q6l0bQoC7RgwQjAjXPf",
+    "https://drive.google.com/file/d/1v9CM3aK91cWSRtJLaxlIt7rnNciU5SaI/view?usp=sharing",
   portfolio_repository: "https://github.com/theriyasharma24/Portfolio",
   githubProfile: "https://github.com/theriyasharma24",
 };
 
 const socialMediaLinks = [
-  /* Your Social Media Link */
-  // github: "https://github.com/ashutosh1919",
-  // linkedin: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
-  // gmail: "ashutoshhathidara98@gmail.com",
-  // gitlab: "https://gitlab.com/ashutoshhathidara98",
-  // facebook: "https://www.facebook.com/laymanbrother.19/",
-  // twitter: "https://twitter.com/ashutosh_1919",
-  // instagram: "https://www.instagram.com/layman_brother/"
-
   {
     name: "Github",
     link: "https://github.com/theriyasharma24",
@@ -376,7 +367,7 @@ const degrees = {
       descriptions: [
         "⚡ I have studied basic software engineering subjects like DSA, DAA, DBMS, OS, SE, CN etc.",
         "⚡ Apart from this, I have done courses in Full Stack Development and Machine Learning.",
-        "⚡ I secured Second Position in the University for Part 1 examination and received scholarship for the same from Indraprastha College for Women, University of Delhi.",
+        "⚡ I have secured Second Position in the University for Part 1 examination and received scholarship for the same from Indraprastha College for Women, University of Delhi.",
       ],
       website_link: "https://www.du.ac.in",
     },
@@ -582,7 +573,7 @@ const experience = {
           duration: "Aug 2021 - present",
           location: "New Delhi",
           description:
-            "My responsibility was to work as a representative of the Computer Science Department of IPCW. I ensured maximum participation and awareness among students regarding contests, webinars, and quizzes organised by the society. I also volunteered to create graphic posters and videos for the society. ",
+            "Ananta is an academic society that acts as a torch of discovery for budding young 'scientists' to quench their thirst for knowledge. My responsibility was to work as a representative of the Computer Science Department of IPCW. I ensured maximum participation and awareness among students regarding contests, webinars, and quizzes organised by the society. I also volunteered to create graphic posters and videos for the society. ",
           color: "#000000",
         },
         {
