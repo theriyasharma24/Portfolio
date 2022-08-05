@@ -1,6 +1,33 @@
 {
-  "closed": 0,
-  "data": [],
+  "closed": 1,
+  "data": [
+    {
+      "id": "I_kwDOHXf6kc5OQpM-",
+      "closed": true,
+      "title": "Fix Screen Height of Pdet Screen",
+      "createdAt": "2022-07-21T09:50:05Z",
+      "url": "https://github.com/amygo-app/amygo/issues/7",
+      "number": 7,
+      "assignees": {
+        "nodes": [
+          {
+            "avatarUrl": "https://avatars.githubusercontent.com/u/83356926?u=8e3f861f13b83f330d4e57818c0d103d514e5a87&v=4",
+            "name": "Riya Sharma",
+            "url": "https://github.com/theriyasharma24"
+          }
+        ]
+      },
+      "repository": {
+        "name": "amygo",
+        "url": "https://github.com/amygo-app/amygo",
+        "owner": {
+          "login": "amygo-app",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/95292363?v=4",
+          "url": "https://github.com/amygo-app"
+        }
+      }
+    }
+  ],
   "open": 0,
-  "totalCount": 0
+  "totalCount": 1
 }
