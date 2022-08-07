@@ -2,6 +2,131 @@
   "closed": 0,
   "data": [
     {
+      "id": "PR_kwDOHtaWVM48mWBD",
+      "title": "Updates for Riya",
+      "url": "https://github.com/theriyasharma24/Portfolio/pull/1",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/83356926?u=8e3f861f13b83f330d4e57818c0d103d514e5a87&v=4",
+        "url": "https://github.com/theriyasharma24",
+        "login": "theriyasharma24"
+      },
+      "createdAt": "2022-08-03T18:41:44Z",
+      "number": 1,
+      "changedFiles": 24,
+      "additions": 492,
+      "deletions": 185,
+      "baseRepository": {
+        "name": "Portfolio",
+        "url": "https://github.com/theriyasharma24/Portfolio",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/83356926?u=8e3f861f13b83f330d4e57818c0d103d514e5a87&v=4",
+          "login": "theriyasharma24",
+          "url": "https://github.com/theriyasharma24"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOHGH2a848T43T",
+      "title": "Feature check state",
+      "url": "https://github.com/amygo-app/NodeJS-Backend/pull/5",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/102505637?u=68c25cd415bd08a063fa6ce6796dfdd86da8c23b&v=4",
+        "url": "https://github.com/sabhya-saini",
+        "login": "sabhya-saini"
+      },
+      "createdAt": "2022-07-29T10:52:57Z",
+      "number": 5,
+      "changedFiles": 5,
+      "additions": 195,
+      "deletions": 116,
+      "baseRepository": {
+        "name": "NodeJS-Backend",
+        "url": "https://github.com/amygo-app/NodeJS-Backend",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/95292363?v=4",
+          "login": "amygo-app",
+          "url": "https://github.com/amygo-app"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOHXf6kc47_fky",
+      "title": "Added Checkbox with Privacy Policy",
+      "url": "https://github.com/amygo-app/amygo/pull/18",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/102505637?u=68c25cd415bd08a063fa6ce6796dfdd86da8c23b&v=4",
+        "url": "https://github.com/sabhya-saini",
+        "login": "sabhya-saini"
+      },
+      "createdAt": "2022-07-24T09:03:28Z",
+      "number": 18,
+      "changedFiles": 6,
+      "additions": 165,
+      "deletions": 79,
+      "baseRepository": {
+        "name": "amygo",
+        "url": "https://github.com/amygo-app/amygo",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/95292363?v=4",
+          "login": "amygo-app",
+          "url": "https://github.com/amygo-app"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOHXf6kc471wYi",
+      "title": "Update Screen Height",
+      "url": "https://github.com/amygo-app/amygo/pull/6",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/102505637?u=68c25cd415bd08a063fa6ce6796dfdd86da8c23b&v=4",
+        "url": "https://github.com/sabhya-saini",
+        "login": "sabhya-saini"
+      },
+      "createdAt": "2022-07-21T09:46:57Z",
+      "number": 6,
+      "changedFiles": 1,
+      "additions": 3,
+      "deletions": 2,
+      "baseRepository": {
+        "name": "amygo",
+        "url": "https://github.com/amygo-app/amygo",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/95292363?v=4",
+          "login": "amygo-app",
+          "url": "https://github.com/amygo-app"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOHXf6kc47ob2o",
+      "title": "Feature checkbox",
+      "url": "https://github.com/amygo-app/amygo/pull/3",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/102505637?u=68c25cd415bd08a063fa6ce6796dfdd86da8c23b&v=4",
+        "url": "https://github.com/sabhya-saini",
+        "login": "sabhya-saini"
+      },
+      "createdAt": "2022-07-19T08:14:45Z",
+      "number": 3,
+      "changedFiles": 10,
+      "additions": 120,
+      "deletions": 36,
+      "baseRepository": {
+        "name": "amygo",
+        "url": "https://github.com/amygo-app/amygo",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/95292363?v=4",
+          "login": "amygo-app",
+          "url": "https://github.com/amygo-app"
+        }
+      }
+    },
+    {
       "id": "PR_kwDOF9hxfM47ZRHp",
       "title": "Removing the latex icon due to poor background.",
       "url": "https://github.com/theriyasharma24/theriyasharma24/pull/2",
@@ -48,6 +173,31 @@
           "avatarUrl": "https://avatars.githubusercontent.com/u/83356926?u=8e3f861f13b83f330d4e57818c0d103d514e5a87&v=4",
           "login": "theriyasharma24",
           "url": "https://github.com/theriyasharma24"
+        }
+      }
+    },
+    {
+      "id": "PR_kwDOHGH2a847JH2V",
+      "title": "Fix orders get api",
+      "url": "https://github.com/amygo-app/NodeJS-Backend/pull/3",
+      "state": "MERGED",
+      "mergedBy": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/102505637?u=68c25cd415bd08a063fa6ce6796dfdd86da8c23b&v=4",
+        "url": "https://github.com/sabhya-saini",
+        "login": "sabhya-saini"
+      },
+      "createdAt": "2022-07-09T14:16:56Z",
+      "number": 3,
+      "changedFiles": 1,
+      "additions": 23,
+      "deletions": 9,
+      "baseRepository": {
+        "name": "NodeJS-Backend",
+        "url": "https://github.com/amygo-app/NodeJS-Backend",
+        "owner": {
+          "avatarUrl": "https://avatars.githubusercontent.com/u/95292363?v=4",
+          "login": "amygo-app",
+          "url": "https://github.com/amygo-app"
         }
       }
     },
@@ -152,7 +302,7 @@
       }
     }
   ],
-  "merged": 6,
+  "merged": 12,
   "open": 0,
-  "totalCount": 6
+  "totalCount": 12
 }
