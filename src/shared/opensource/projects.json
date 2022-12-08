@@ -23,6 +23,10 @@
         {
           "name": "Dockerfile",
           "iconifyClass": "simple-icons:docker"
+        },
+        {
+          "name": "Shell",
+          "iconifyClass": "simple-icons:shell"
         }
       ]
     },
@@ -67,6 +71,20 @@
       ]
     },
     {
+      "id": "R_kgDOHw1ohQ",
+      "name": "pencil-to-sketch-converter",
+      "createdAt": "2022-08-03T17:26:21Z",
+      "url": "https://github.com/theriyasharma24/pencil-to-sketch-converter",
+      "description": "This project converts any colored image into a sketch using cv2 library of python.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Jupyter Notebook",
+          "iconifyClass": "logos-jupyter"
+        }
+      ]
+    },
+    {
       "id": "MDEwOlJlcG9zaXRvcnkzODU2OTExMjQ=",
       "name": "Analogue-Clock",
       "createdAt": "2021-07-13T17:54:17Z",
@@ -85,20 +103,6 @@
         {
           "name": "JavaScript",
           "iconifyClass": "logos-javascript"
-        }
-      ]
-    },
-    {
-      "id": "R_kgDOHw1ohQ",
-      "name": "pencil-to-sketch-converter",
-      "createdAt": "2022-08-03T17:26:21Z",
-      "url": "https://github.com/theriyasharma24/pencil-to-sketch-converter",
-      "description": "This project converts any colored image into a sketch using cv2 library of python.",
-      "isFork": false,
-      "languages": [
-        {
-          "name": "Jupyter Notebook",
-          "iconifyClass": "logos-jupyter"
         }
       ]
     },

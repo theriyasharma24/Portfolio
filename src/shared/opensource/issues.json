@@ -1,13 +1,13 @@
 {
-  "closed": 1,
+  "closed": 2,
   "data": [
     {
-      "id": "I_kwDOHXf6kc5OQpM-",
+      "id": "I_kwDOHw1ohc5QZ46Q",
       "closed": true,
-      "title": "Fix Screen Height of Pdet Screen",
-      "createdAt": "2022-07-21T09:50:05Z",
-      "url": "https://github.com/amygo-app/amygo/issues/7",
-      "number": 7,
+      "title": "No readme file",
+      "createdAt": "2022-08-24T07:01:19Z",
+      "url": "https://github.com/theriyasharma24/pencil-to-sketch-converter/issues/1",
+      "number": 1,
       "assignees": {
         "nodes": [
           {
@@ -18,16 +18,36 @@
         ]
       },
       "repository": {
-        "name": "amygo",
-        "url": "https://github.com/amygo-app/amygo",
+        "name": "pencil-to-sketch-converter",
+        "url": "https://github.com/theriyasharma24/pencil-to-sketch-converter",
         "owner": {
-          "login": "amygo-app",
-          "avatarUrl": "https://avatars.githubusercontent.com/u/95292363?v=4",
-          "url": "https://github.com/amygo-app"
+          "login": "theriyasharma24",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/83356926?u=8e3f861f13b83f330d4e57818c0d103d514e5a87&v=4",
+          "url": "https://github.com/theriyasharma24"
+        }
+      }
+    },
+    {
+      "id": "I_kwDOBchS0M5PpXws",
+      "closed": true,
+      "title": "Keyword: FAILED SQL: SELECT %(0)s AS \"a\" FROM \"accounts_account\" WHERE \"accounts_account\".\"id\" = %(1)s LIMIT 1 Params: (1, 1)",
+      "createdAt": "2022-08-11T17:06:13Z",
+      "url": "https://github.com/doableware/djongo/issues/630",
+      "number": 630,
+      "assignees": {
+        "nodes": []
+      },
+      "repository": {
+        "name": "djongo",
+        "url": "https://github.com/doableware/djongo",
+        "owner": {
+          "login": "doableware",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/70813599?v=4",
+          "url": "https://github.com/doableware"
         }
       }
     }
   ],
   "open": 0,
-  "totalCount": 1
+  "totalCount": 2
 }
