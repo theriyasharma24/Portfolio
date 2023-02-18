@@ -1,7 +1,6 @@
 {
-  "private": true,
-  "name": "Portfolio",
-  "homepage": ".",
+  "name": "portfolio",
+  "homepage": "http://theriyasharma24.github.io/Portfolio",
   "version": "0.1.0",
   "scripts": {
     "build": "react-scripts build",
@@ -19,7 +18,6 @@
     "browserslist": "^4.21.4",
     "chart.js": "^2.9.3",
     "fs": "0.0.1-security",
-    "gh-pages": "^2.1.1",
     "graphql": "^14.5.8",
     "node-fetch": "^2.6.0",
     "postcss-browser-comments": "^4.0.0",
@@ -42,6 +40,7 @@
   "devDependencies": {
     "@iconify/icons-logos": "^1.0.9",
     "@iconify/react": "^1.1.1",
+    "gh-pages": "^5.0.0",
     "husky": "^4.2.5",
     "lint-staged": "^10.2.11",
     "prettier": "2.0.5"
