@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "homepage": "http://theriyasharma24.github.io/Portfolio",
+  "homepage": "https://theriyasharma24.github.io/Portfolio",
   "version": "0.1.0",
   "scripts": {
     "build": "react-scripts build",
