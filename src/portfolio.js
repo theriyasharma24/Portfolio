@@ -403,87 +403,6 @@ const certifications = {
       alt_name: "Iot",
       color_code: "#d777df",
     },
-    // {
-    //   title: "Data Science",
-    //   subtitle: "- Alex Aklson",
-    //   logo_path: "ibm_logo.png",
-    //   certificate_link:
-    //     "https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
-    //   alt_name: "IBM",
-    //   color_code: "#1F70C199",
-    // },
-    // {
-    //   title: "Big Data",
-    //   subtitle: "- Kim Akers",
-    //   logo_path: "microsoft_logo.png",
-    //   certificate_link:
-    //     "https://drive.google.com/file/d/164zKCFOsI4vGqokc-Qj-e_D00kLDHIrG/view",
-    //   alt_name: "Microsoft",
-    //   color_code: "#D83B0199",
-    // },
-    // {
-    //   title: "Advanced Data Science",
-    //   subtitle: "- Romeo Kienzler",
-    //   logo_path: "ibm_logo.png",
-    //   certificate_link:
-    //     "https://www.coursera.org/account/accomplishments/verify/BH2T9BRU87BH",
-    //   alt_name: "IBM",
-    //   color_code: "#1F70C199",
-    // },
-    // {
-    //   title: "Advanced ML on GCP",
-    //   subtitle: "- GCP Training",
-    //   logo_path: "google_logo.png",
-    //   certificate_link:
-    //     "https://www.coursera.org/account/accomplishments/verify/5JZZM7TNQ2AV",
-    //   alt_name: "Google",
-    //   color_code: "#0C9D5899",
-    // },
-    // {
-    //   title: "DL on Tensorflow",
-    //   subtitle: "- Laurence Moroney",
-    //   logo_path: "deeplearning_ai_logo.png",
-    //   certificate_link:
-    //     "https://www.coursera.org/account/accomplishments/verify/6T4DCUGNK8J8",
-    //   alt_name: "deeplearning.ai",
-    //   color_code: "#00000099",
-    // },
-    // {
-    //   title: "Fullstack Development",
-    //   subtitle: "- Jogesh Muppala",
-    //   logo_path: "coursera_logo.png",
-    //   certificate_link:
-    //     "https://www.coursera.org/account/accomplishments/certificate/NRANJA66Y2YA",
-    //   alt_name: "Coursera",
-    //   color_code: "#2A73CC",
-    // },
-    // {
-    //   title: "Kuberenetes on GCP",
-    //   subtitle: "- Qwiklabs",
-    //   logo_path: "gcp_logo.png",
-    //   certificate_link:
-    //     "https://google.qwiklabs.com/public_profiles/e4d5a92b-faf6-4679-a70b-a9047c0cd750",
-    //   alt_name: "GCP",
-    //   color_code: "#4285F499",
-    // },
-    // {
-    //   title: "Cryptography",
-    //   subtitle: "- Saurabh Mukhopadhyay",
-    //   logo_path: "nptel_logo.png",
-    //   certificate_link:
-    //     "https://drive.google.com/open?id=1z5ExD_QJVdU0slLkp8CBqSF3-C3g-ro_",
-    //   alt_name: "NPTEL",
-    //   color_code: "#FFBB0099",
-    // },
-    // {
-    //   title: "Cloud Architecture",
-    //   subtitle: "- Qwiklabs",
-    //   logo_path: "gcp_logo.png",
-    //   certificate_link:
-    //     "https://google.qwiklabs.com/public_profiles/5fab4b2d-be6f-408c-8dcb-6d3b58ecb4a2",
-    //   alt_name: "GCP",
-    //   color_code: "#4285F499",
-    // },
   ],
 };
 
@@ -495,45 +414,6 @@ const experience = {
     "Currently, I am working to enhance my web and android development skills. I am also closely involved with the Core Team of Science Society of IPCW as the Department Representative.",
   header_image_path: "working.png",
   sections: [
-    // {
-    //   title: "Work",
-    //   experiences: [
-    //
-    //     {
-    //       title: "Associate AI Engineer",
-    //       company: "Legato Health Technology",
-    //       company_url: "https://legatohealthtech.com/",
-    //       logo_path: "legato_logo.png",
-    //       duration: "June 2020 - PRESENT",
-    //       location: "Hyderabad, Telangana",
-    //       description:
-    //         "I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
-    //       color: "#0879bf",
-    //     },
-    //     {
-    //       title: "Android and ML Developer",
-    //       company: "Muffito Incorporation",
-    //       company_url: "https://www.linkedin.com/company/muffito-inc/about/",
-    //       logo_path: "muffito_logo.png",
-    //       duration: "May 2018 - Oct 2018",
-    //       location: "Pune, Maharashtra",
-    //       description:
-    //         "I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
-    //       color: "#9b1578",
-    //     },
-    //     {
-    //       title: "Android Developer",
-    //       company: "FreeCopy Pvt. Ltd.",
-    //       company_url: "https://www.linkedin.com/company/freecopy/about/",
-    //       logo_path: "freecopy_logo.png",
-    //       duration: "Nov 2017 - Dec 2017",
-    //       location: "Ahmedabad, Gujarat",
-    //       description:
-    //         "FreeCopy is the Start up from Indian Institute of Management, Ahmedabad. I have changed the integration of the whole app from Google to Firebase. I learnt the efﬁcient ways of Data communications like Retroﬁt, Eventbus etc. I experienced the real time start up. I learnt the Design thinking of UI on perspective of People.",
-    //       color: "#fc1f20",
-    //     },
-    //   ],
-    // },
     {
       title: "Internships",
       experiences: [
@@ -548,18 +428,6 @@ const experience = {
             "Amygo is a video-led commerce platform that is committed to transforming e-commerce in India through immersive videos, customer-centricity, a diverse category landscape and a world-class supply chain. I am independently creating new features for the react-native application of Amygo. I have also created APIs in Django/Python and NodeJS language for the Backend.",
           color: "#ee3c26",
         },
-        // {
-        //   title: "Data Science Intern",
-        //   company: "Intel Indexer LLC",
-        //   company_url:
-        //     "https://opencorporates.com/companies/us_dc/EXTUID_4170286",
-        //   logo_path: "intel_logo.jpg",
-        //   duration: "Nov 2018 - Dec 2018",
-        //   location: "Work From Home",
-        //   description:
-        //     "This is financial Solution Company. I have made Supervised Learning model for the company which can perform time series analysis on Stock price data for 32 companies. I have built LSTM Neural Networks Model and trained the data of 32 companies for last 2 years. This model is also used for forecasting.",
-        //   color: "#0071C5",
-        // },
       ],
     },
     {
@@ -599,30 +467,6 @@ const experience = {
             "Visionaries is a student initiative which aims to help students who are visually impaired by providing them scribes and audiobooks. I record audiobooks in Hindi and English language. To help the visually impaired students, I have also made a python program that converts any PDF text into an audiobook in seconds.",
           color: "#4285F4",
         },
-
-        // {
-        //   title: "Developer Students Club Member",
-        //   company: "DSC IIITDM Kurnool",
-        //   company_url:
-        //     "https://www.linkedin.com/company/developer-students-club-iiitdm-kurnool",
-        //   logo_path: "dsc_logo.png",
-        //   duration: "Jan 2018 - May 2020",
-        //   location: "Kurnool, Andhra Pradesh",
-        //   description:
-        //     "We have well established developer club in college which is directly associated with Google Developers. We have developed many interdisciplinary projects under the membership of this club. We have organised workshops and activities on Android Application Development, Flutter and React JS.",
-        //   color: "#0C9D58",
-        // },
-        // {
-        //   title: "Developer Program Member",
-        //   company: "Github",
-        //   company_url: "https://github.com/",
-        //   logo_path: "github_logo.png",
-        //   duration: "July 2019 - PRESENT",
-        //   location: "Work From Home",
-        //   description:
-        //     "I am actively contributing to many opensource projects. I have contributed to projects of organisations like Tensorflow, Uber, Facebook, Google, Scikit-learn, Kiwix, Sympy, Python, NVLabs, Fossasia, Netrack, Keras etc. These contributions include bug fixes, feature requests and formulating proper documentation for project.",
-        //   color: "#181717",
-        // },
       ],
     },
   ],
