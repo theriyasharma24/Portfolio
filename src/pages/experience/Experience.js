@@ -154,10 +154,7 @@ class Experience extends Component {
           <Fade bottom duration={2000} distance="40px">
             <div className="experience-heading-div">
               <div className="experience-heading-img-div">
-                <img
-                  src={require(`../../assests/images/${experience["header_image_path"]}`)}
-                  alt=""
-                />
+                <img src={require(`../../assests/images/working.png`)} alt="" />
                 {/* <ExperienceImg theme={theme} /> */}
               </div>
               <div className="experience-heading-text-div">
