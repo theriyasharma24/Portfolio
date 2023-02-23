@@ -19,8 +19,7 @@ git_data_fetcher.mjs
 .env.development.local
 .env.test.local
 .env.production.local
-.env
-/.env
+
 
 npm-debug.log*
 yarn-debug.log*
