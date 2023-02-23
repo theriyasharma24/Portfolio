@@ -21,7 +21,7 @@
 
 
 <p align="center"> 
-    <a href="https://riyasharma24.herokuapp.com/#/home" target="_blank">
+    <a href="https://riya-sharma-portfolio.netlify.app/#/home" target="_blank">
     <img src="https://user-images.githubusercontent.com/83356926/183068630-dfa19c89-9682-4f53-91f6-f4eb21e9fe56.png"></img>
   </a>
 </p>
@@ -39,7 +39,7 @@
 ✔️ Education\
 ✔️ Contact me
 
-To view a live example, **[click here](https://riyasharma24.herokuapp.com/#/home)**
+To view a live example, **[click here](https://riya-sharma-portfolio.netlify.app/#/home)**
 
 # Clone and Use 📋
 
