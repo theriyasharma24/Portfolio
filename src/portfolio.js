@@ -13,7 +13,7 @@ const seo = {
   og: {
     title: "Riya Sharma Portfolio",
     type: "website",
-    url: "https://riyasharma24.herokuapp.com/#/",
+    url: "https://riya-sharma-portfolio.netlify.app/#/home",
   },
 };
 
@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "A passionate tech enthusiast trying to solve real world problems through technology.",
   resumeLink:
-    "https://drive.google.com/file/d/1v9CM3aK91cWSRtJLaxlIt7rnNciU5SaI/view?usp=sharing",
+    "https://drive.google.com/file/d/1zXQFUV8vEHqKbNkJ56pwf6XfTxJQCzMX/view?usp=sharing",
   portfolio_repository: "https://github.com/theriyasharma24/Portfolio",
   githubProfile: "https://github.com/theriyasharma24",
 };
@@ -93,6 +93,7 @@ const skills = {
             backgroundColor: "transparent",
           },
         },
+
         {
           skillName: "Keras",
           fontAwesomeClassname: "simple-icons:keras",
