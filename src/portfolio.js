@@ -404,6 +404,7 @@ const certifications = {
       alt_name: "Iot",
       color_code: "#d777df",
     },
+
     // {
     //   title: "Data Science",
     //   subtitle: "- Alex Aklson",
