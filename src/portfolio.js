@@ -395,6 +395,7 @@ const certifications = {
       alt_name: "Learn IT University",
       color_code: "#f6ada2",
     },
+
     {
       title: "Fundamentals of IoT",
       subtitle: "- Harish Kumar Maheshwari",
@@ -404,6 +405,7 @@ const certifications = {
       alt_name: "Iot",
       color_code: "#d777df",
     },
+
     // {
     //   title: "Data Science",
     //   subtitle: "- Alex Aklson",
