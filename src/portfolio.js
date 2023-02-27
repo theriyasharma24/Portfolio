@@ -93,6 +93,7 @@ const skills = {
             backgroundColor: "transparent",
           },
         },
+
         {
           skillName: "Keras",
           fontAwesomeClassname: "simple-icons:keras",
