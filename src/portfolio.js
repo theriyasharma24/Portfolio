@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "A passionate tech enthusiast trying to solve real world problems through technology.",
   resumeLink:
-    "https://drive.google.com/file/d/1zXQFUV8vEHqKbNkJ56pwf6XfTxJQCzMX/view?usp=sharing",
+    "https://drive.google.com/file/d/1nocXajgUCiwg-gOQlhlzVhruX-QSTW3P/view?usp=sharing",
   portfolio_repository: "https://github.com/theriyasharma24/Portfolio",
   githubProfile: "https://github.com/theriyasharma24",
 };
@@ -495,7 +495,7 @@ const experience = {
   title: "Experience",
   subtitle: "Internship and Volunteership",
   description:
-    "Currently, I am working to enhance my web and android development skills. I am also closely involved with the Core Team of Science Society of IPCW as the Department Representative.",
+    "Currently, I am working to enhance my web and android development skills by making some unique projects.",
   header_image_path: "working.png",
   sections: [
     // {
@@ -544,10 +544,10 @@ const experience = {
           company: "Amygo Retail Pvt. Ltd.",
           company_url: "https://www.amygo.app/",
           logo_path: "amygologo.jpg",
-          duration: "June 2022 - present",
-          location: "Work From Home",
+          duration: "June 2022 - March 2023",
+          location: "Hybrid",
           description:
-            "Amygo is a video-led commerce platform that is committed to transforming e-commerce in India through immersive videos, customer-centricity, a diverse category landscape and a world-class supply chain. I am independently creating new features for the react-native application of Amygo. I have also created APIs in Django/Python and NodeJS language for the Backend.",
+            "Amygo is a video-led e-commerce platform that is committed to transforming e-commerce in India through immersive videos, customer-centricity, a diverse category landscape and a world-class supply chain. I have independently created new features for the react-native application of Amygo. I have also created APIs in Django/Python and NodeJS language for the Backend.",
           color: "#ee3c26",
         },
         // {
@@ -573,7 +573,7 @@ const experience = {
           company_url:
             "https://sites.google.com/view/ananta-thesciencesociety/home?authuser=0",
           logo_path: "ananta.png",
-          duration: "Aug 2021 - present",
+          duration: "Aug 2021 - September 2022",
           location: "New Delhi",
           description:
             "Ananta is an academic society that acts as a torch of discovery for budding young 'scientists' to quench their thirst for knowledge. My responsibility was to work as a representative of the Computer Science Department of IPCW. I ensured maximum participation and awareness among students regarding contests, webinars, and quizzes organised by the society. I also volunteered to create graphic posters and videos for the society. ",
