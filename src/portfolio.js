@@ -364,7 +364,7 @@ const degrees = {
       subtitle: "BSc (H) Computer Science",
       logo_path: "du.jpg",
       alt_name: "du",
-      duration: "2020 - Present",
+      duration: "2020 - 2023",
       descriptions: [
         "⚡ I have studied basic software engineering subjects like DSA, DAA, DBMS, OS, SE, CN etc.",
         "⚡ Apart from this, I have done courses in Full Stack Web Development and Machine Learning.",
@@ -395,6 +395,15 @@ const certifications = {
       alt_name: "Learn IT University",
       color_code: "#f6ada2",
     },
+    {
+      title: "Javascript",
+      subtitle: "- You Accel Training",
+      logo_path: "js_logo.jpg",
+      certificate_link:
+        "https://www.udemy.com/certificate/UC-3850d72a-5cc2-446b-a562-3db654b75f48/",
+      alt_name: "javascript",
+      color_code: "#F5DD1B",
+    },
 
     {
       title: "Fundamentals of IoT",
@@ -404,6 +413,24 @@ const certifications = {
         "https://www.udemy.com/certificate/UC-d91adff1-a7ae-48ce-abe2-f5cc15311383/",
       alt_name: "Iot",
       color_code: "#d777df",
+    },
+    {
+      title: "Microsoft Data Analyst Associate (DA-100)",
+      subtitle: "- Honeywell",
+      logo_path: "Honeywell_logo.jpg",
+      certificate_link:
+        "https://drive.google.com/file/d/1dBWhxJuzxhOKSAQj8Toz2k8EohDRVqwe/view",
+      alt_name: "power bi",
+      color_code: "#FFFFFF",
+    },
+    {
+      title: "Android Kotlin Fundamentals",
+      subtitle: "- Google Developer Student Club",
+      logo_path: "dsc_logo.jpg",
+      certificate_link:
+        "https://drive.google.com/file/d/18I0-MxNYEd8KibBgSpmHAr_8uRFwtPf1/view",
+      alt_name: "kotlin",
+      color_code: "#FFFFFF",
     },
 
     // {
@@ -495,7 +522,7 @@ const experience = {
   title: "Experience",
   subtitle: "Internship and Volunteership",
   description:
-    "Currently, I am working to enhance my web and android development skills by making some unique projects.",
+    "I am a Full Stack Developer with a passion for creating efficient and innovative solutions. ",
   header_image_path: "working.png",
   sections: [
     // {
@@ -541,13 +568,13 @@ const experience = {
       experiences: [
         {
           title: "Full Stack App Developer Intern",
-          company: "Amygo Retail Pvt. Ltd.",
+          company: "Ameego",
           company_url: "https://www.amygo.app/",
           logo_path: "amygologo.jpg",
           duration: "June 2022 - March 2023",
           location: "Hybrid",
           description:
-            "Amygo is a video-led e-commerce platform that is committed to transforming e-commerce in India through immersive videos, customer-centricity, a diverse category landscape and a world-class supply chain. I have independently created new features for the react-native application of Amygo. I have also created APIs in Django/Python and NodeJS language for the Backend.",
+            "Ameego is a video-led e-commerce application. I have independently created new features, resolved bugs, documented the code, and have created and tested the backend. The tech stack used is- react native, react.js, express.js, node.js, mongoDB, sqlite, git, REST APIs, django, python, and jira. ",
           color: "#ee3c26",
         },
         // {
@@ -652,7 +679,7 @@ const contactPageData = {
     profile_image_path: "Contactgirl.png",
     description:
       // "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
-      "I am almost on all social media sites and mostly active on Linkedin. You can contact me anytime and I can help you with AI, React, and Android.",
+      "I am almost on all social media sites and mostly active on Linkedin. You can contact me anytime and I can help you with React and Android.",
   },
   blogSection: {
     title: "Blogs",
