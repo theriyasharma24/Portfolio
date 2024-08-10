@@ -1,34 +1,11 @@
 {
   "data": [
     {
-      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      "name": "Artificial Intelligence Paper",
-      "createdAt": "2020-03-06T16:26:54Z",
-      "description": "Paper Written on Artificial Intelligence published in xyz "
-    },
-    {
-      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzi=",
-      "name": "Artificial Intelligence Paper",
-      "createdAt": "2020-03-06T16:26:54Z",
-      "description": "Paper Written on Artificial Intelligence published in xyz "
-    },
-    {
-      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNze=",
-      "name": "Artificial Intelligence Paper",
-      "createdAt": "2020-03-06T16:26:54Z",
-      "description": "Paper Written on Artificial Intelligence published in xyz "
-    },
-    {
-      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzt=",
-      "name": "Artificial Intelligence Paper",
-      "createdAt": "2020-03-06T16:26:54Z",
-      "description": "Paper Written on Artificial Intelligence published in xyz "
-    },
-    {
       "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzb=",
-      "name": "Artificial Intelligence Paper",
-      "createdAt": "2020-03-06T16:26:54Z",
-      "description": "Paper Written on Artificial Intelligence published in xyz "
+      "name": "Applications of IoT in Smart Cities",
+      "createdAt": "2022-10-30T16:26:54Z",
+      "link": "https://drive.google.com/file/d/1rAEO-jYEwBZYz-ZnmfKwq7ukIJjaOuX_/view",
+      "description": "Paper published in the yearly journal of Department of Computer Science, Indraprastha College for Women, University of Delhi."
     }
   ]
 }

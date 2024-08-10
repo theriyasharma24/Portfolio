@@ -22,7 +22,17 @@ export default function GithubRepoCard({ repo, theme }) {
           </div>
           <p className="publication-description" style={{ color: theme.text }}>
             {repo.description}
+            <br></br>
           </p>
+          <a
+            href={repo.link}
+            className="publication-description"
+            style={{ color: theme.text }}
+          >
+            Show Research Paper
+          </a>
+          <br></br>
+
           <div className="publication-details">
             <p
               className="publication-creation-date subTitle"

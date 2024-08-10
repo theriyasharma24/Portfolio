@@ -21,11 +21,11 @@ const seo = {
 const greeting = {
   title: "Riya Sharma",
   logo_name: "Riya Sharma",
-  nickname: "layman_brother",
+  nickname: "Riya Sharma",
   subTitle:
     "A passionate tech enthusiast trying to solve real world problems through technology.",
   resumeLink:
-    "https://drive.google.com/file/d/1nocXajgUCiwg-gOQlhlzVhruX-QSTW3P/view?usp=sharing",
+    "https://drive.google.com/drive/folders/1dFv0u0EtEzv6PgMyVqQAssknTTkIwKay?usp=sharing",
   portfolio_repository: "https://github.com/theriyasharma24/Portfolio",
   githubProfile: "https://github.com/theriyasharma24",
 };
@@ -56,17 +56,23 @@ const socialMediaLinks = [
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
   {
-    name: "Instagram",
-    link: "https://www.instagram.com/theriyasharma_/",
-    fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
-    backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
+    name: "Medium",
+    link: "https://medium.com/@theriyasharma24",
+    fontAwesomeIcon: "fa-medium", // Reference https://fontawesome.com/icons/google?style=brands
+    backgroundColor: "black", // Reference https://simpleicons.org/?q=gmail
   },
-  {
-    name: "Twitter",
-    link: "https://twitter.com/theriyasharma_",
-    fontAwesomeIcon: "fa-twitter", // Reference https://fontawesome.com/icons/twitter?style=brands
-    backgroundColor: "#1DA1F2", // Reference https://simpleicons.org/?q=twitter
-  },
+  // {
+  //   name: "Instagram",
+  //   link: "https://www.instagram.com/theriyasharma_/",
+  //   fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
+  //   backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
+  // },
+  // {
+  //   name: "Twitter",
+  //   link: "https://twitter.com/theriyasharma_",
+  //   fontAwesomeIcon: "fa-twitter", // Reference https://fontawesome.com/icons/twitter?style=brands
+  //   backgroundColor: "#1DA1F2", // Reference https://simpleicons.org/?q=twitter
+  // },
   // {
   //   name: "Facebook",
   //   link: "https://www.facebook.com/laymanbrother.19/",
@@ -77,55 +83,57 @@ const socialMediaLinks = [
 
 const skills = {
   data: [
-    {
-      title: "Data Science & AI",
-      fileName: "DataScienceImg",
-      skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
+    // {
+    //   title: "Data Science & AI",
+    //   fileName: "DataScienceImg",
+    //   skills: [
+    //     "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
+    //     "⚡ Experience of working with Computer Vision and NLP projects",
+    //     "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
+    //   ],
+    //   softwareSkills: [
+    //     {
+    //       skillName: "Tensorflow",
+    //       fontAwesomeClassname: "logos-tensorflow",
+    //       style: {
+    //         backgroundColor: "transparent",
+    //       },
+    //     },
 
-        {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
-          style: {
-            backgroundColor: "white",
-            color: "#D00000",
-          },
-        },
-        {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
-          },
-        },
-      ],
-    },
+    //     {
+    //       skillName: "Keras",
+    //       fontAwesomeClassname: "simple-icons:keras",
+    //       style: {
+    //         backgroundColor: "white",
+    //         color: "#D00000",
+    //       },
+    //     },
+    //     {
+    //       skillName: "PyTorch",
+    //       fontAwesomeClassname: "logos-pytorch",
+    //       style: {
+    //         backgroundColor: "transparent",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Python",
+    //       fontAwesomeClassname: "ion-logo-python",
+    //       style: {
+    //         backgroundColor: "transparent",
+    //         color: "#3776AB",
+    //       },
+    //     },
+    //   ],
+    // },
     {
       title: "Full Stack Development",
-      fileName: "FullStackImg",
+      fileName: "working.png",
       skills: [
-        "⚡ Building responsive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "⚡Crafting dynamic, responsive front-ends with React and Angular",
+        "⚡Designing seamless mobile experiences with React Native",
+        "⚡Engineering robust back-end systems using Node.js, Express, .NET Core, and Django",
+        "⚡Expertly managing and optimizing databases with SQL, SQLite, and MongoDB",
+        "⚡Utilizing Azure DevOps to facilitate seamless deployments and adopt agile methodologies.",
       ],
       softwareSkills: [
         {
@@ -158,10 +166,26 @@ const skills = {
           },
         },
         {
-          skillName: "ReactJS",
+          skillName: "React",
           fontAwesomeClassname: "simple-icons:react",
           style: {
             color: "#61DAFB",
+          },
+        },
+        {
+          skillName: "Angular",
+          fontAwesomeClassname: "logos:angular-icon",
+          style: {
+            backgroundColor: "transparent",
+            color: "#DD0031",
+          },
+        },
+        {
+          skillName: "Typescript",
+          fontAwesomeClassname: "logos:typescript-icon",
+          style: {
+            backgroundColor: "transparent",
+            color: "#DD0031",
           },
         },
         {
@@ -171,79 +195,41 @@ const skills = {
             color: "#339933",
           },
         },
+        // {
+        //   skillName: "NPM",
+        //   fontAwesomeClassname: "simple-icons:npm",
+        //   style: {
+        //     color: "#CB3837",
+        //   },
+        // },
         {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
+          skillName: ".NET Core",
+          fontAwesomeClassname: "logos:dotnet",
           style: {
-            color: "#CB3837",
+            color: "#512BD4", // .NET Core purple color
+            backgroundColor: "transparent", // Ensure the background is transparent
           },
         },
         {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
+          skillName: "C#",
+          fontAwesomeClassname: "simple-icons:csharp",
           style: {
-            color: "#2C8EBB",
+            color: "#239120", // C# green color
+            backgroundColor: "transparent",
           },
         },
         {
-          skillName: "Gatsby",
-          fontAwesomeClassname: "simple-icons:gatsby",
+          skillName: "SQL",
+          fontAwesomeClassname: "fa-solid:database",
           style: {
-            color: "#663399",
+            color: "#4479A1",
           },
         },
         {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
+          skillName: "SQLite",
+          fontAwesomeClassname: "vscode-icons:file-type-sqlite",
           style: {
-            color: "#02569B",
-          },
-        },
-      ],
-    },
-    {
-      title: "Cloud Infra-Architecture",
-      fileName: "CloudInfraImg",
-      skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
-      ],
-      softwareSkills: [
-        {
-          skillName: "GCP",
-          fontAwesomeClassname: "simple-icons:googlecloud",
-          style: {
-            color: "#4285F4",
-          },
-        },
-        {
-          skillName: "AWS",
-          fontAwesomeClassname: "simple-icons:amazonaws",
-          style: {
-            color: "#FF9900",
-          },
-        },
-        {
-          skillName: "Azure",
-          fontAwesomeClassname: "simple-icons:microsoftazure",
-          style: {
-            color: "#0089D6",
-          },
-        },
-        {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
-          style: {
-            color: "#FFCA28",
-          },
-        },
-        {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
-          style: {
-            color: "#336791",
+            color: "#003B57",
           },
         },
         {
@@ -254,58 +240,184 @@ const skills = {
           },
         },
         {
-          skillName: "Docker",
-          fontAwesomeClassname: "simple-icons:docker",
+          skillName: "Django",
+          fontAwesomeClassname: "logos:django-icon",
           style: {
-            color: "#1488C6",
+            color: "#092E20",
           },
         },
         {
-          skillName: "Kubernetes",
-          fontAwesomeClassname: "simple-icons:kubernetes",
+          skillName: "Azure DevOps",
+          fontAwesomeClassname: "simple-icons:azuredevops", // Azure DevOps icon from the 'logos' collection
           style: {
-            color: "#326CE5",
+            color: "#0078D4", // Azure DevOps blue color
+            backgroundColor: "transparent", // Ensure the background is transparent
+            // Adjust the size as needed
           },
         },
       ],
     },
+    // {
+    //   title: "Cloud Infra-Architecture",
+    //   fileName: "CloudInfraImg",
+    //   skills: [
+    //     "⚡ Experience working on multiple cloud platforms",
+    //     "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
+    //     "⚡ Deploying deep learning models on cloud to use on mobile devices",
+    //     "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
+    //   ],
+    //   softwareSkills: [
+    //     {
+    //       skillName: "GCP",
+    //       fontAwesomeClassname: "simple-icons:googlecloud",
+    //       style: {
+    //         color: "#4285F4",
+    //       },
+    //     },
+    //     {
+    //       skillName: "AWS",
+    //       fontAwesomeClassname: "simple-icons:amazonaws",
+    //       style: {
+    //         color: "#FF9900",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Azure",
+    //       fontAwesomeClassname: "simple-icons:microsoftazure",
+    //       style: {
+    //         color: "#0089D6",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Firebase",
+    //       fontAwesomeClassname: "simple-icons:firebase",
+    //       style: {
+    //         color: "#FFCA28",
+    //       },
+    //     },
+    //     {
+    //       skillName: "PostgreSQL",
+    //       fontAwesomeClassname: "simple-icons:postgresql",
+    //       style: {
+    //         color: "#336791",
+    //       },
+    //     },
+    //     {
+    //       skillName: "MongoDB",
+    //       fontAwesomeClassname: "simple-icons:mongodb",
+    //       style: {
+    //         color: "#47A248",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Docker",
+    //       fontAwesomeClassname: "simple-icons:docker",
+    //       style: {
+    //         color: "#1488C6",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Kubernetes",
+    //       fontAwesomeClassname: "simple-icons:kubernetes",
+    //       style: {
+    //         color: "#326CE5",
+    //       },
+    //     },
+    //   ],
+    // },
+    // {
+    //   title: "UI/UX Design",
+    //   fileName: "DesignImg",
+    //   skills: [
+    //     "⚡ Designing highly attractive user interface for mobile and web applications",
+    //     "⚡ Customizing logo designs and building logos from scratch",
+    //     "⚡ Creating the flow of application functionalities to optimize user experience",
+    //   ],
+    //   softwareSkills: [
+    //     {
+    //       skillName: "Adobe XD",
+    //       fontAwesomeClassname: "simple-icons:adobexd",
+    //       style: {
+    //         color: "#FF2BC2",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Figma",
+    //       fontAwesomeClassname: "simple-icons:figma",
+    //       style: {
+    //         color: "#F24E1E",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Adobe Illustrator",
+    //       fontAwesomeClassname: "simple-icons:adobeillustrator",
+    //       style: {
+    //         color: "#FF7C00",
+    //       },
+    //     },
+    //     {
+    //       skillName: "Inkscape",
+    //       fontAwesomeClassname: "simple-icons:inkscape",
+    //       style: {
+    //         color: "#000000",
+    //       },
+    //     },
+    //   ],
+    // },
+
     {
-      title: "UI/UX Design",
-      fileName: "DesignImg",
+      title: "Software Enhancements",
+      fileName: "Projects_top.png",
       skills: [
-        "⚡ Designing highly attractive user interface for mobile and web applications",
-        "⚡ Customizing logo designs and building logos from scratch",
-        "⚡ Creating the flow of application functionalities to optimize user experience",
+        "⚡ Leveraging SonarCloud to maintain high standards in code quality and security.",
+        "⚡ Implementing robust testing suites with Cypress for reliable web application performance.",
       ],
       softwareSkills: [
+        // {
+        //   skillName: "Adobe XD",
+        //   fontAwesomeClassname: "simple-icons:adobexd",
+        //   style: {
+        //     color: "#FF2BC2",
+        //   },
+        // },
         {
-          skillName: "Adobe XD",
-          fontAwesomeClassname: "simple-icons:adobexd",
+          skillName: "SonarCloud",
+          fontAwesomeClassname: "simple-icons:sonarcloud", // SonarCloud icon from the 'simple-icons' collection
           style: {
-            color: "#FF2BC2",
+            color: "#4E9BCD", // SonarCloud blue color
+            backgroundColor: "transparent", // Ensure the background is transparent
           },
         },
         {
-          skillName: "Figma",
-          fontAwesomeClassname: "simple-icons:figma",
+          skillName: "Cypress",
+          fontAwesomeClassname: "simple-icons:cypress", // Cypress icon from the 'simple-icons' collection
           style: {
-            color: "#F24E1E",
+            color: "#17202A", // Cypress dark color
+            backgroundColor: "transparent", // Ensure the background is transparent
           },
         },
-        {
-          skillName: "Adobe Illustrator",
-          fontAwesomeClassname: "simple-icons:adobeillustrator",
-          style: {
-            color: "#FF7C00",
-          },
-        },
-        {
-          skillName: "Inkscape",
-          fontAwesomeClassname: "simple-icons:inkscape",
-          style: {
-            color: "#000000",
-          },
-        },
+
+        // {
+        //   skillName: "Figma",
+        //   fontAwesomeClassname: "simple-icons:figma",
+        //   style: {
+        //     color: "#F24E1E",
+        //   },
+        // },
+        // {
+        //   skillName: "Adobe Illustrator",
+        //   fontAwesomeClassname: "simple-icons:adobeillustrator",
+        //   style: {
+        //     color: "#FF7C00",
+        //   },
+        // },
+        // {
+        //   skillName: "Inkscape",
+        //   fontAwesomeClassname: "simple-icons:inkscape",
+        //   style: {
+        //     color: "#000000",
+        //   },
+        // },
       ],
     },
   ],
@@ -364,7 +476,7 @@ const degrees = {
       subtitle: "BSc (H) Computer Science",
       logo_path: "du.jpg",
       alt_name: "du",
-      duration: "2020 - Present",
+      duration: "2020 - 2023",
       descriptions: [
         "⚡ I have studied basic software engineering subjects like DSA, DAA, DBMS, OS, SE, CN etc.",
         "⚡ Apart from this, I have done courses in Full Stack Web Development and Machine Learning.",
@@ -377,6 +489,16 @@ const degrees = {
 
 const certifications = {
   certifications: [
+    {
+      title: "Microsoft Data Analyst Associate (DA-100) ",
+      subtitle: "- Honeywell",
+      logo_path: "honeywell.jfif",
+      certificate_link:
+        "https://drive.google.com/file/d/1dBWhxJuzxhOKSAQj8Toz2k8EohDRVqwe/view",
+      alt_name: "honeywell",
+      color_code: "#fe152b",
+    },
+
     {
       title: "CSS",
       subtitle: "- Kaifi Khan",
@@ -493,9 +615,9 @@ const certifications = {
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Internship and Volunteership",
+  // subtitle: "Internship and Volunteership",
   description:
-    "Currently, I am working to enhance my web and android development skills by making some unique projects.",
+    "I am an experienced Full Stack Developer, having begun my career with an evolving e-commerce startup and currently working with a well-established company. My expertise includes React, React Native, Angular, .NET Core, SQL, MongoDB, Python, Django, Git, SonarCloud, Cypress, and Azure DevOps. Additionally, I actively contribute to various open-source communities.",
   header_image_path: "working.png",
   sections: [
     // {
@@ -537,6 +659,22 @@ const experience = {
     //   ],
     // },
     {
+      title: "Full Time Roles",
+      experiences: [
+        {
+          title: "Junior Engineer, Technology",
+          company: "Kline & Company",
+          company_url: "https://klinegroup.com/",
+          logo_path: "klinecompany-logo.svg",
+          duration: "July 2023 - Present",
+          location: "Gurugram, Haryana",
+          description:
+            "Kline is an advisory consultancy and market research firm, that elevates industry expertise with technology to deliver highly predictive and actionable data, insights, and specialist advice. I am currently working on designing, developing, and maintaining the web applications at Kline using Angular, React, SQL, .NET Core, Cypress, Sonarcloud, and Azure DevOps.",
+          color: "#ee3c26",
+        },
+      ],
+    },
+    {
       title: "Internships",
       experiences: [
         {
@@ -545,23 +683,11 @@ const experience = {
           company_url: "https://www.amygo.app/",
           logo_path: "amygologo.jpg",
           duration: "June 2022 - March 2023",
-          location: "Hybrid",
+          location: "New Delhi",
           description:
-            "Amygo is a video-led e-commerce platform that is committed to transforming e-commerce in India through immersive videos, customer-centricity, a diverse category landscape and a world-class supply chain. I have independently created new features for the react-native application of Amygo. I have also created APIs in Django/Python and NodeJS language for the Backend.",
+            "Amygo is a video-led e-commerce platform that is committed to transforming e-commerce in India through immersive videos, customer-centricity, a diverse category landscape and a world-class supply chain. I have independently created new features and worked on improving the android and web applications of Amygo. Tech used was React Native, React, Django/Python, NodeJs, ExpressJs, MongoDb, Jira, and Git.",
           color: "#ee3c26",
         },
-        // {
-        //   title: "Data Science Intern",
-        //   company: "Intel Indexer LLC",
-        //   company_url:
-        //     "https://opencorporates.com/companies/us_dc/EXTUID_4170286",
-        //   logo_path: "intel_logo.jpg",
-        //   duration: "Nov 2018 - Dec 2018",
-        //   location: "Work From Home",
-        //   description:
-        //     "This is financial Solution Company. I have made Supervised Learning model for the company which can perform time series analysis on Stock price data for 32 companies. I have built LSTM Neural Networks Model and trained the data of 32 companies for last 2 years. This model is also used for forecasting.",
-        //   color: "#0071C5",
-        // },
       ],
     },
     {
@@ -634,14 +760,13 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. I try to explore new tools and tech by experimenting with them. My best experience is to create Data Science and Web Development projects.",
+    "My projects makes use of vast variety of latest technology tools. I try to explore new tools and tech by experimenting with them. My best experience is to create Web Development and Data Science projects.",
   avatar_image_path: "Projects_top.png",
 };
 
 const publicationsHeader = {
   title: "Publications",
-  description:
-    "I have worked on and published a few research papers and publications of my own.",
+  // description: "Here is a published research paper on which I have worked.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -652,7 +777,7 @@ const contactPageData = {
     profile_image_path: "Contactgirl.png",
     description:
       // "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
-      "I am almost on all social media sites and mostly active on Linkedin. You can contact me anytime and I can help you with AI, React, and Android.",
+      "I am on the following social media sites and mostly active on Linkedin. You can contact me anytime and I can help you with Full Stack Web and Android Development.",
   },
   blogSection: {
     title: "Blogs",
