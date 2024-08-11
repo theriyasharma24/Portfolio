@@ -127,13 +127,13 @@ const skills = {
     // },
     {
       title: "Full Stack Development",
-      fileName: "working.png",
+      fileName: "Projects_top.png",
       skills: [
         "⚡Crafting dynamic, responsive front-ends with React and Angular",
         "⚡Designing seamless mobile experiences with React Native",
         "⚡Engineering robust back-end systems using Node.js, Express, .NET Core, and Django",
         "⚡Expertly managing and optimizing databases with SQL, SQLite, and MongoDB",
-        "⚡Utilizing Azure DevOps to facilitate seamless deployments and adopt agile methodologies.",
+        "⚡Utilizing Azure DevOps to facilitate seamless deployments and adopt agile methodologies",
       ],
       softwareSkills: [
         {
@@ -190,9 +190,9 @@ const skills = {
         },
         {
           skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
+          fontAwesomeClassname: "logos:nodejs-icon", // Alternative icon from the 'logos' collection
           style: {
-            color: "#339933",
+            color: "#68A063", // Node.js green color
           },
         },
         // {
@@ -367,10 +367,10 @@ const skills = {
 
     {
       title: "Software Enhancements",
-      fileName: "Projects_top.png",
+      fileName: "working.png",
       skills: [
-        "⚡ Leveraging SonarCloud to maintain high standards in code quality and security.",
-        "⚡ Implementing robust testing suites with Cypress for reliable web application performance.",
+        "⚡ Leveraging SonarCloud to maintain high standards in code quality and security",
+        "⚡ Implementing robust testing suites with Cypress for reliable web application performance",
       ],
       softwareSkills: [
         // {
@@ -777,7 +777,7 @@ const contactPageData = {
     profile_image_path: "Contactgirl.png",
     description:
       // "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
-      "I am on the following social media sites and mostly active on Linkedin. You can contact me anytime and I can help you with Full Stack Web and Android Development.",
+      "I am available on the following sites and mostly active on Linkedin. You can contact me anytime and I can help you with Full Stack Web and Android Development.",
   },
   blogSection: {
     title: "Blogs",
