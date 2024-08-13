@@ -40,6 +40,12 @@
   src: local("Google Sans Regular"),
     url("./assests/fonts/GoogleSans-Regular.ttf") format("woff");
 }
+@font-face {
+  font-family: "Allura";
+  src: url("./assests/fonts/allura.regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;

@@ -33,13 +33,13 @@
 .header .logo {
   display: block;
   float: left;
-  font-size: 1.5em;
+  font-size: 1.8em;
   text-decoration: none;
   margin-top: 10px;
   line-height: normal;
 }
 .header .logo-name {
-  font-family: "Agustina Regular";
+  font-family: "Allura";
   font-weight: bold;
   padding: 0 10px;
   /* color: #55198b; */
