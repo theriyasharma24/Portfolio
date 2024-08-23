@@ -617,7 +617,7 @@ const experience = {
   title: "Experience",
   // subtitle: "Internship and Volunteership",
   description:
-    "I am an experienced Full Stack Developer, having begun my career with an evolving e-commerce startup and currently working with a well-established company. My expertise includes React, React Native, Angular, .NET Core, SQL, MongoDB, Python, Django, Git, SonarCloud, Cypress, and Azure DevOps. Additionally, I actively contribute to various open-source communities.",
+    "I am an experienced Full Stack Developer, having begun my career with an evolving e-commerce startup and currently working with a well-established company.",
   header_image_path: "working.png",
   sections: [
     // {
