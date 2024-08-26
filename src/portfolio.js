@@ -435,14 +435,6 @@ const competitiveSites = {
       profileLink: "https://www.hackerrank.com/theriyasharma24?hr_r=1",
     },
     {
-      siteName: "Codechef",
-      iconifyClassname: "simple-icons:codechef",
-      style: {
-        color: "#5B4638",
-      },
-      profileLink: "https://www.codechef.com/users/riyasharma24",
-    },
-    {
       siteName: "Leetcode",
       iconifyClassname: "simple-icons:leetcode",
       style: {
@@ -451,13 +443,30 @@ const competitiveSites = {
       profileLink: "https://leetcode.com/riyasharma24/",
     },
     {
-      siteName: "Hackerearth",
-      iconifyClassname: "simple-icons:hackerearth",
+      siteName: "Codechef",
+      iconifyClassname: "simple-icons:codechef",
       style: {
-        color: "#323754",
+        color: "#5B4638",
       },
-      profileLink: "https://www.hackerearth.com/@riya1212",
+      profileLink: "https://www.codechef.com/users/riyasharma24",
     },
+    {
+      siteName: "Github",
+      iconifyClassname: "simple-icons:github",
+      style: {
+        color: "#181717",
+      },
+      profileLink: "https://github.com/theriyasharma24",
+    },
+
+    // {
+    //   siteName: "Hackerearth",
+    //   iconifyClassname: "simple-icons:hackerearth",
+    //   style: {
+    //     color: "#323754",
+    //   },
+    //   profileLink: "https://www.hackerearth.com/@riya1212",
+    // },
     {
       siteName: "StackOverflow",
       iconifyClassname: "simple-icons:stackoverflow",
@@ -617,7 +626,7 @@ const experience = {
   title: "Experience",
   // subtitle: "Internship and Volunteership",
   description:
-    "I am an experienced Full Stack Developer, having begun my career with an evolving e-commerce startup and currently working with a well-established company.",
+    "I have almost 2 years of experience as a Full Stack Developer, having begun my career with an evolving e-commerce startup and currently working with a well-established company.",
   header_image_path: "working.png",
   sections: [
     // {
