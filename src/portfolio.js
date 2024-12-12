@@ -442,14 +442,14 @@ const competitiveSites = {
       },
       profileLink: "https://leetcode.com/riyasharma24/",
     },
-    {
-      siteName: "Codechef",
-      iconifyClassname: "simple-icons:codechef",
-      style: {
-        color: "#5B4638",
-      },
-      profileLink: "https://www.codechef.com/users/riyasharma24",
-    },
+    // {
+    //   siteName: "Codechef",
+    //   iconifyClassname: "simple-icons:codechef",
+    //   style: {
+    //     color: "#5B4638",
+    //   },
+    //   profileLink: "https://www.codechef.com/users/riyasharma24",
+    // },
     {
       siteName: "Github",
       iconifyClassname: "simple-icons:github",
@@ -499,6 +499,15 @@ const degrees = {
 const certifications = {
   certifications: [
     {
+      title: "Responsive Web Design",
+      subtitle: "- freecodecamp",
+      logo_path: "freecodecamp_logo.jpg",
+      certificate_link:
+        "https://www.freecodecamp.org/certification/RiyaSharma24/responsive-web-design",
+      alt_name: "freecodecamp_logo",
+      color_code: "#000000",
+    },
+    {
       title: "Microsoft Data Analyst Associate (DA-100) ",
       subtitle: "- Honeywell",
       logo_path: "honeywell.jfif",
@@ -526,7 +535,14 @@ const certifications = {
       alt_name: "Learn IT University",
       color_code: "#f6ada2",
     },
-
+    {
+      title: "Problem Solving (Intermediate)",
+      subtitle: "- Hackerrank",
+      logo_path: "hackerrank_logo.png",
+      certificate_link: "https://www.hackerrank.com/certificates/d9f8a08d63db",
+      alt_name: "hackerrank_prblem_solving",
+      color_code: "#000000",
+    },
     {
       title: "Fundamentals of IoT",
       subtitle: "- Harish Kumar Maheshwari",
@@ -536,7 +552,6 @@ const certifications = {
       alt_name: "Iot",
       color_code: "#d777df",
     },
-
     // {
     //   title: "Data Science",
     //   subtitle: "- Alex Aklson",
@@ -626,7 +641,7 @@ const experience = {
   title: "Experience",
   // subtitle: "Internship and Volunteership",
   description:
-    "I have almost 2 years of experience as a Full Stack Developer, having begun my career with an evolving e-commerce startup and currently working with a well-established company.",
+    "I have more than 2 years of experience as a Full Stack Developer, having begun my career with an evolving e-commerce startup and currently working with a well-established company.",
   header_image_path: "working.png",
   sections: [
     // {
@@ -678,7 +693,7 @@ const experience = {
           duration: "July 2023 - Present",
           location: "Gurugram, Haryana",
           description:
-            "Kline is an advisory consultancy and market research firm, that elevates industry expertise with technology to deliver highly predictive and actionable data, insights, and specialist advice. I am currently working on designing, developing, and maintaining the web applications at Kline using Angular, React, SQL, .NET Core, Cypress, Sonarcloud, and Azure DevOps.",
+            "Kline is an advisory consultancy and market research firm, that elevates industry expertise with technology to deliver highly predictive and actionable data, insights, and specialist advice. I am currently working on designing, developing, and maintaining the web applications at Kline using Angular, React, SQL, .NET Core, Cypress, Sonarcloud, and Azure.",
           color: "#ee3c26",
         },
       ],
