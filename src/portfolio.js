@@ -516,15 +516,13 @@ const certifications = {
       alt_name: "honeywell",
       color_code: "#fe152b",
     },
-
     {
-      title: "CSS",
-      subtitle: "- Kaifi Khan",
-      logo_path: "edyoda_logo.PNG",
-      certificate_link:
-        "https://www.udemy.com/certificate/UC-2a8eb701-b5e1-40ea-8238-54bb7e144fb6/",
-      alt_name: "Edyoda Digital University",
-      color_code: "#a6cbf4",
+      title: "Problem Solving (Intermediate)",
+      subtitle: "- Hackerrank",
+      logo_path: "hackerrank_logo.png",
+      certificate_link: "https://www.hackerrank.com/certificates/d9f8a08d63db",
+      alt_name: "hackerrank_prblem_solving",
+      color_code: "#000000",
     },
     {
       title: "Git",
@@ -536,14 +534,6 @@ const certifications = {
       color_code: "#f6ada2",
     },
     {
-      title: "Problem Solving (Intermediate)",
-      subtitle: "- Hackerrank",
-      logo_path: "hackerrank_logo.png",
-      certificate_link: "https://www.hackerrank.com/certificates/d9f8a08d63db",
-      alt_name: "hackerrank_prblem_solving",
-      color_code: "#000000",
-    },
-    {
       title: "Fundamentals of IoT",
       subtitle: "- Harish Kumar Maheshwari",
       logo_path: "Iot_logo.jpg",
@@ -551,6 +541,15 @@ const certifications = {
         "https://www.udemy.com/certificate/UC-d91adff1-a7ae-48ce-abe2-f5cc15311383/",
       alt_name: "Iot",
       color_code: "#d777df",
+    },
+    {
+      title: "CSS",
+      subtitle: "- Kaifi Khan",
+      logo_path: "edyoda_logo.PNG",
+      certificate_link:
+        "https://www.udemy.com/certificate/UC-2a8eb701-b5e1-40ea-8238-54bb7e144fb6/",
+      alt_name: "Edyoda Digital University",
+      color_code: "#a6cbf4",
     },
     // {
     //   title: "Data Science",
