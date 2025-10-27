@@ -23,7 +23,7 @@ const greeting = {
   logo_name: "Riya Sharma",
   nickname: "Riya Sharma",
   subTitle:
-    "A passionate tech enthusiast trying to solve real world problems through technology.",
+    "Passionate about leveraging technology to solve real-world challenges and create meaningful impact.",
   resumeLink:
     "https://drive.google.com/drive/folders/1dFv0u0EtEzv6PgMyVqQAssknTTkIwKay?usp=sharing",
   portfolio_repository: "https://github.com/theriyasharma24/Portfolio",
@@ -427,20 +427,20 @@ const skills = {
 const competitiveSites = {
   competitiveSites: [
     {
-      siteName: "HackerRank",
-      iconifyClassname: "simple-icons:hackerrank",
-      style: {
-        color: "#2EC866",
-      },
-      profileLink: "https://www.hackerrank.com/theriyasharma24?hr_r=1",
-    },
-    {
       siteName: "Leetcode",
       iconifyClassname: "simple-icons:leetcode",
       style: {
         color: "#1F8ACB",
       },
       profileLink: "https://leetcode.com/riyasharma24/",
+    },
+    {
+      siteName: "HackerRank",
+      iconifyClassname: "simple-icons:hackerrank",
+      style: {
+        color: "#2EC866",
+      },
+      profileLink: "https://www.hackerrank.com/theriyasharma24?hr_r=1",
     },
     // {
     //   siteName: "Codechef",
@@ -450,6 +450,14 @@ const competitiveSites = {
     //   },
     //   profileLink: "https://www.codechef.com/users/riyasharma24",
     // },
+    {
+      siteName: "GeeksforGeeks",
+      iconifyClassname: "simple-icons:geeksforgeeks",
+      style: {
+        color: "#345234",
+      },
+      profileLink: "https://www.geeksforgeeks.org/user/theriyasharma24/",
+    },
     {
       siteName: "Github",
       iconifyClassname: "simple-icons:github",
@@ -467,14 +475,6 @@ const competitiveSites = {
     //   },
     //   profileLink: "https://www.hackerearth.com/@riya1212",
     // },
-    {
-      siteName: "StackOverflow",
-      iconifyClassname: "simple-icons:stackoverflow",
-      style: {
-        color: "#345234",
-      },
-      profileLink: "https://stackoverflow.com/users/15662612/riya-sharma",
-    },
   ],
 };
 
@@ -638,61 +638,34 @@ const certifications = {
 // Experience Page
 const experience = {
   title: "Experience",
-  // subtitle: "Internship and Volunteership",
+  subtitle: "Work & Volunteerships",
   description:
-    "I have more than 2 years of experience as a Full Stack Developer, having begun my career with an evolving e-commerce startup and currently working with a well-established company.",
+    "I have 3 years of experience as a Software Engineer, having begun my career at an evolving e-commerce startup and now working with a well-established company.",
   header_image_path: "working.png",
   sections: [
-    // {
-    //   title: "Work",
-    //   experiences: [
-    //     {
-    //       title: "Associate AI Engineer",
-    //       company: "Legato Health Technology",
-    //       company_url: "https://legatohealthtech.com/",
-    //       logo_path: "legato_logo.png",
-    //       duration: "June 2020 - PRESENT",
-    //       location: "Hyderabad, Telangana",
-    //       description:
-    //         "I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
-    //       color: "#0879bf",
-    //     },
-    //     {
-    //       title: "Android and ML Developer",
-    //       company: "Muffito Incorporation",
-    //       company_url: "https://www.linkedin.com/company/muffito-inc/about/",
-    //       logo_path: "muffito_logo.png",
-    //       duration: "May 2018 - Oct 2018",
-    //       location: "Pune, Maharashtra",
-    //       description:
-    //         "I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
-    //       color: "#9b1578",
-    //     },
-    //     {
-    //       title: "Android Developer",
-    //       company: "FreeCopy Pvt. Ltd.",
-    //       company_url: "https://www.linkedin.com/company/freecopy/about/",
-    //       logo_path: "freecopy_logo.png",
-    //       duration: "Nov 2017 - Dec 2017",
-    //       location: "Ahmedabad, Gujarat",
-    //       description:
-    //         "FreeCopy is the Start up from Indian Institute of Management, Ahmedabad. I have changed the integration of the whole app from Google to Firebase. I learnt the efﬁcient ways of Data communications like Retroﬁt, Eventbus etc. I experienced the real time start up. I learnt the Design thinking of UI on perspective of People.",
-    //       color: "#fc1f20",
-    //     },
-    //   ],
-    // },
     {
       title: "Full Time Roles",
       experiences: [
         {
-          title: "Junior Engineer, Technology",
+          title: "Product Engineer",
           company: "Kline & Company",
           company_url: "https://klinegroup.com/",
           logo_path: "klinecompany-logo.svg",
-          duration: "July 2023 - Present",
+          duration: "Oct'25 - Present",
           location: "Gurugram, Haryana",
           description:
-            "Kline is an advisory consultancy and market research firm, that elevates industry expertise with technology to deliver highly predictive and actionable data, insights, and specialist advice. I am currently working on designing, developing, and maintaining the web applications at Kline using Angular, React, SQL, .NET Core, Cypress, Sonarcloud, and Azure.",
+            "I lead the end-to-end delivery of scalable web application features, from architectural design and implementation to deployment and optimization. Working closely with product and engineering teams, I apply best practices in testing, CI/CD, and cloud infrastructure to ensure system reliability, maintainability, and alignment with organizational goals.",
+          color: "#ee3c26",
+        },
+        {
+          title: "Junior Product Engineer",
+          company: "Kline & Company",
+          company_url: "https://klinegroup.com/",
+          logo_path: "klinecompany-logo.svg",
+          duration: "Jul'23 - Sep'25",
+          location: "Gurugram, Haryana",
+          description:
+            "Kline is an advisory and market research consultancy. As a Junior Product Engineer, I contributed to the development and maintenance of web applications built with Angular, React, SQL, .NET Core, Cypress, and SonarCloud. My responsibilities included implementing new features, resolving bugs, writing automated test cases, and assisting with deployment processes. Collaborating closely with senior engineers, I gained hands-on experience in best development practices, participated in code reviews, and helped enhance the overall quality and reliability of Kline’s technology products.",
           color: "#ee3c26",
         },
       ],
@@ -708,7 +681,7 @@ const experience = {
           duration: "June 2022 - March 2023",
           location: "New Delhi",
           description:
-            "Amygo is a video-led e-commerce platform that is committed to transforming e-commerce in India through immersive videos, customer-centricity, a diverse category landscape and a world-class supply chain. I have independently created new features and worked on improving the android and web applications of Amygo. Tech used was React Native, React, Django/Python, NodeJs, ExpressJs, MongoDb, Jira, and Git.",
+            "Amygo is a video-led e-commerce platform committed to transforming e-commerce in India through immersive videos, customer-centricity, a diverse category landscape, and a world-class supply chain. I independently created new features and improved the Android and web applications of Amygo. Tech used: React Native, React, Django/Python, NodeJs, ExpressJs, MongoDb, Jira, and Git.",
           color: "#ee3c26",
         },
       ],
@@ -725,7 +698,7 @@ const experience = {
           duration: "Aug 2021 - September 2022",
           location: "New Delhi",
           description:
-            "Ananta is an academic society that acts as a torch of discovery for budding young 'scientists' to quench their thirst for knowledge. My responsibility was to work as a representative of the Computer Science Department of IPCW. I ensured maximum participation and awareness among students regarding contests, webinars, and quizzes organised by the society. I also volunteered to create graphic posters and videos for the society. ",
+            "Worked as a representative of the Computer Science Department of IPCW. Ensured maximum participation and awareness among students regarding contests, webinars, and quizzes organised by the society. Volunteered to create graphic posters and videos for the society.",
           color: "#000000",
         },
         {
@@ -736,44 +709,20 @@ const experience = {
           duration: "Aug 2021 - present",
           location: "Work From Home",
           description:
-            "Girl Up Now is an affiliation to Girl Up Campaign recognised by the United Nations Foundation. It works towards women empowerment and upliftment. I participated and promoted the workshops and webinars organized by the campaign. I also volunteered to create graphic posters for the campaign.  ",
+            "Participated and promoted workshops and webinars organized by Girl Up Campaign. Volunteered to create graphic posters for the campaign.",
           color: "#D83B01",
         },
         {
           title: "Student Volunteer",
-          company: "Visonaries",
+          company: "Visionaries",
           company_url: "https://www.facebook.com/visionariesdu/",
           logo_path: "visionarieslogo.jpg",
           duration: "March 2021 - present",
           location: "Work From Home",
           description:
-            "Visionaries is a student initiative which aims to help students who are visually impaired by providing them scribes and audiobooks. I record audiobooks in Hindi and English language. To help the visually impaired students, I have also made a python program that converts any PDF text into an audiobook in seconds.",
+            "Helped visually impaired students by providing scribes and audiobooks. Created a Python program that converts any PDF text into an audiobook in seconds.",
           color: "#4285F4",
         },
-
-        // {
-        //   title: "Developer Students Club Member",
-        //   company: "DSC IIITDM Kurnool",
-        //   company_url:
-        //     "https://www.linkedin.com/company/developer-students-club-iiitdm-kurnool",
-        //   logo_path: "dsc_logo.png",
-        //   duration: "Jan 2018 - May 2020",
-        //   location: "Kurnool, Andhra Pradesh",
-        //   description:
-        //     "We have well established developer club in college which is directly associated with Google Developers. We have developed many interdisciplinary projects under the membership of this club. We have organised workshops and activities on Android Application Development, Flutter and React JS.",
-        //   color: "#0C9D58",
-        // },
-        // {
-        //   title: "Developer Program Member",
-        //   company: "Github",
-        //   company_url: "https://github.com/",
-        //   logo_path: "github_logo.png",
-        //   duration: "July 2019 - PRESENT",
-        //   location: "Work From Home",
-        //   description:
-        //     "I am actively contributing to many opensource projects. I have contributed to projects of organisations like Tensorflow, Uber, Facebook, Google, Scikit-learn, Kiwix, Sympy, Python, NVLabs, Fossasia, Netrack, Keras etc. These contributions include bug fixes, feature requests and formulating proper documentation for project.",
-        //   color: "#181717",
-        // },
       ],
     },
   ],
@@ -783,7 +732,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. I try to explore new tools and tech by experimenting with them. My best experience is to create Web Development and Data Science projects.",
+    "I love experimenting with the latest technologies and tools, constantly pushing myself to learn and innovate. My favorite work involves creating impactful projects in Web Development and Data Science.",
   avatar_image_path: "Projects_top.png",
 };
 
@@ -800,11 +749,12 @@ const contactPageData = {
     profile_image_path: "Contactgirl.png",
     description:
       // "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
-      "I am available on the following sites and mostly active on Linkedin. You can contact me anytime and I can help you with Full Stack Web and Android Development.",
+      "I’m available on the following platforms and most active on LinkedIn. I’m open to collaborations and opportunities related to Full Stack Web and Android Development.",
   },
   blogSection: {
     title: "Blogs",
-    subtitle: "I like to share whatever I have learned through my blogs.",
+    subtitle:
+      "I actively share my insights and learnings through technical blogs to help others grow alongside me.",
     link: "https://medium.com/@theriyasharma24",
     avatar_image_path: "blogs_image.png",
   },

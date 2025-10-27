@@ -27,6 +27,32 @@
       ]
     },
     {
+      "id": "R_kgDOI_2F-g",
+      "name": "payment-solution",
+      "createdAt": "2023-02-19T16:56:58Z",
+      "url": "https://github.com/theriyasharma24/payment-solution",
+      "description": "The project solves the problem of agents who handles different clients on daily basis. It offers a secure authentication system and a user-friendly interface. Through this app, agents can easily store general information and payment updates of each client.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        },
+        {
+          "name": "CSS",
+          "iconifyClass": "logos-css-3"
+        },
+        {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
+        },
+        {
+          "name": "Dockerfile",
+          "iconifyClass": "simple-icons:docker"
+        }
+      ]
+    },
+    {
       "id": "MDEwOlJlcG9zaXRvcnk0MDEzMTQyNzU=",
       "name": "pdf-to-audiobook-converter",
       "createdAt": "2021-08-30T11:11:31Z",
@@ -41,86 +67,16 @@
       ]
     },
     {
-      "id": "R_kgDOGxuVZw",
-      "name": "payment-solution",
-      "createdAt": "2022-02-02T13:49:08Z",
-      "url": "https://github.com/Sabhya-Mentor-Programme/payment-solution",
-      "description": "The project solves the problem of agents who handles different clients on daily basis. It offers a secure authentication system and a user-friendly interface. Through this app, agents can easily store general information and payment updates of each client.",
+      "id": "R_kgDOKfwCoQ",
+      "name": "DSA-Practice-Problems",
+      "createdAt": "2023-10-13T06:25:49Z",
+      "url": "https://github.com/theriyasharma24/DSA-Practice-Problems",
+      "description": "This repository has solved DSA problems from Love Babbar's 450 DSA question list.",
       "isFork": false,
       "languages": [
         {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
-        },
-        {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
-        },
-        {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
-        },
-        {
-          "name": "Shell",
-          "iconifyClass": "simple-icons:shell"
-        }
-      ]
-    },
-    {
-      "id": "MDEwOlJlcG9zaXRvcnkzODU2OTExMjQ=",
-      "name": "Analogue-Clock",
-      "createdAt": "2021-07-13T17:54:17Z",
-      "url": "https://github.com/theriyasharma24/Analogue-Clock",
-      "description": "This is a simple analogue clock made using HTML, CSS and JavaScript. 🕜",
-      "isFork": false,
-      "languages": [
-        {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
-        },
-        {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
-        },
-        {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
-        }
-      ]
-    },
-    {
-      "id": "R_kgDOHw1ohQ",
-      "name": "pencil-to-sketch-converter",
-      "createdAt": "2022-08-03T17:26:21Z",
-      "url": "https://github.com/theriyasharma24/pencil-to-sketch-converter",
-      "description": "This project converts any colored image into a sketch using cv2 library of python.",
-      "isFork": false,
-      "languages": [
-        {
-          "name": "Jupyter Notebook",
-          "iconifyClass": "logos-jupyter"
-        }
-      ]
-    },
-    {
-      "id": "MDEwOlJlcG9zaXRvcnkzODYzNjI5MTU=",
-      "name": "ToDoList",
-      "createdAt": "2021-07-15T16:52:49Z",
-      "url": "https://github.com/theriyasharma24/ToDoList",
-      "description": "A simple to do list made using HTML,CSS, and JavaScript",
-      "isFork": false,
-      "languages": [
-        {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
-        },
-        {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
-        },
-        {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
+          "name": "Python",
+          "iconifyClass": "logos-python"
         }
       ]
     }

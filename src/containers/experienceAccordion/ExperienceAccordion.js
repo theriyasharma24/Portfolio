@@ -33,11 +33,21 @@ class ExperienceAccordion extends Component {
                   },
                 }}
               >
-                {section["experiences"].map((experience) => {
-                  return (
-                    <ExperienceCard experience={experience} theme={theme} />
-                  );
-                })}
+                {(() => {
+                  const grouped = {};
+                  section["experiences"].forEach((exp) => {
+                    const key = exp.company + exp.logo_path;
+                    if (!grouped[key]) grouped[key] = [];
+                    grouped[key].push(exp);
+                  });
+                  return Object.values(grouped).map((companyRoles, idx) => (
+                    <ExperienceCard
+                      key={companyRoles[0].company + idx}
+                      experiences={companyRoles}
+                      theme={theme}
+                    />
+                  ));
+                })()}
               </Panel>
             );
           })}

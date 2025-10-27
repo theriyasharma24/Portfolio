@@ -3,63 +3,88 @@ import "./ExperienceCard.css";
 
 class ExperienceCard extends Component {
   render() {
-    const experience = this.props.experience;
+    const experiences = this.props.experiences;
     const theme = this.props.theme;
+    if (!experiences || experiences.length === 0) return null;
+    const company = experiences[0].company;
+    const company_url = experiences[0].company_url;
+    const logo_path = experiences[0].logo_path;
+    const color = experiences[0].color;
     return (
-      <div
-        className="experience-card"
-        style={{ border: `1px solid ${experience["color"]}` }}
-      >
+      <div className="experience-card" style={{ border: `1px solid ${color}` }}>
         <div className="experience-card-logo-div">
           <img
             className="experience-card-logo"
-            src={require(`../../assests/images/${experience["logo_path"]}`)}
+            src={require(`../../assests/images/${logo_path}`)}
             alt=""
           />
         </div>
         <div className="experience-card-body-div">
-          <div className="experience-card-header-div">
-            <div className="experience-card-heading-left">
-              <h3
-                className="experience-card-title"
-                style={{ color: theme.text }}
+          {experiences.map((role, idx) => (
+            <div key={role.title}>
+              <div
+                className="experience-card-row"
+                style={{
+                  display: "flex",
+                  justifyContent: "space-between",
+                  alignItems: "center",
+                }}
               >
-                {experience["title"]}
-              </h3>
-              <p
-                className="experience-card-company"
-                style={{ color: theme.text }}
-              >
-                <a
-                  href={experience["company_url"]}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                <div
+                  style={{
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: "flex-start",
+                  }}
                 >
-                  {experience["company"]}
-                </a>
+                  <h3
+                    className="experience-card-title"
+                    style={{ color: theme.text, marginBottom: 0 }}
+                  >
+                    {role.title}
+                  </h3>
+                  <p
+                    className="experience-card-company"
+                    style={{ color: theme.text, marginBottom: 0 }}
+                  >
+                    <a
+                      href={company_url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {company}
+                    </a>
+                  </p>
+                </div>
+                <div
+                  style={{
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: "flex-end",
+                  }}
+                >
+                  <span
+                    className="experience-card-duration"
+                    style={{ color: theme.secondaryText }}
+                  >
+                    {role.duration}
+                  </span>
+                  <span
+                    className="experience-card-location"
+                    style={{ color: theme.secondaryText }}
+                  >
+                    {role.location}
+                  </span>
+                </div>
+              </div>
+              <p
+                className="experience-card-description"
+                style={{ color: theme.text }}
+              >
+                {role.description}
               </p>
             </div>
-            <div className="experience-card-heading-right">
-              <p
-                className="experience-card-duration"
-                style={{ color: theme.secondaryText }}
-              >
-                {experience["duration"]}
-              </p>
-              <p
-                className="experience-card-location"
-                style={{ color: theme.secondaryText }}
-              >
-                {experience["location"]}
-              </p>
-            </div>
-          </div>
-          <p
-            className="experience-card-description"
-            style={{ color: theme.text }}
-          >
-            {experience["description"]}
-          </p>
+          ))}
         </div>
       </div>
     );

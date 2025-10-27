@@ -7,7 +7,7 @@
 }
 
 .experience-card-logo-div {
-  margin: 10px;
+  margin: 14px;
 }
 
 .experience-card-body-div {
@@ -69,7 +69,6 @@
 
 .experience-card-description {
   margin-top: 5px;
-  margin-left: 10px;
   text-align: justify;
   margin-right: 20px;
   font-family: "Google Sans Regular";
@@ -106,6 +105,18 @@
   transition: all 0.3s ease-in-out 0s;
 }
 
+.experience-card-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2px;
+}
+
+.experience-card-duration,
+.experience-card-location {
+  margin-right: 20px;
+}
+
 @media (max-width: 768px) {
   .experience-card {
     margin-bottom: 10px;
@@ -117,46 +128,39 @@
     width: 100px;
   }
 
-  .experience-card-body-div {
-  }
-
-  .experience-card-heading-left {
-    float: center;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .experience-card-heading-right {
-    float: center;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .experience-card-title {
-    text-align: center;
-  }
-
-  .experience-card-company {
-    text-align: center;
-  }
-
-  .experience-card-duration {
-    margin-top: 2px;
-    text-align: center;
-  }
-
+  .experience-card-title,
+  .experience-card-company,
+  .experience-card-duration,
   .experience-card-location {
-    /* text-align: left; */
-    text-align: center;
+    text-align: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: block !important;
   }
 
-  .experience-card-header-div {
-    flex-direction: column;
+  .experience-card-duration,
+  .experience-card-location {
+    margin-right: 0 !important;
+    width: 100% !important;
+    text-align: center !important;
+    display: block !important;
   }
 
   .experience-card-description {
     margin-left: 14px;
     margin-right: 14px;
     text-align: justify;
+  }
+
+  .experience-card-body-div > div {
+    margin-bottom: 18px;
+  }
+
+  .experience-card-row {
+    flex-direction: column !important;
+    align-items: center !important;
+    display: flex !important;
+    width: 100%;
+    gap: 2px;
   }
 }
