@@ -654,7 +654,7 @@ const experience = {
           duration: "Oct'25 - Present",
           location: "Gurugram, Haryana",
           description:
-            "I lead the end-to-end delivery of scalable web application features, from architectural design and implementation to deployment and optimization. Working closely with product and engineering teams, I apply best practices in testing, CI/CD, and cloud infrastructure to ensure system reliability, maintainability, and alignment with organizational goals.",
+            "I design and deliver scalable web application features end-to-end, spanning architecture, development, deployment, and performance optimization. Working closely with product and engineering partners, I implement robust testing strategies, CI/CD pipelines, and cloud-native practices to drive reliability and long-term maintainability.",
           color: "#ee3c26",
         },
         {
